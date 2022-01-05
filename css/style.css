@@ -382,6 +382,9 @@
     height: 40px;
     width: 40px;
 }
+.margin{
+    margin-bottom: 15px;
+}
 .extra{
     margin-bottom: 30px;
 }
@@ -921,57 +924,6 @@
 /******************************************************MEDIA QUERIES*********************************************************************/
 /***********Full View(screen and 1200px)***********/
 @media (min-width:1200px){
-    /* navbar
-    .banner-section {
-        padding: 0px 110px;
-    }
-    .tagline {
-        font-size: 55px;
-    }
-    .students {
-        margin: 0px 60px;
-    }
-    .banner-img {
-        width: 600px;
-    }
-    /* feature-section */
-    /* .feature-section {
-        padding: 40px 150px;
-    }
-    .arrow-btn1 {
-        left: 80px;
-    }
-    .arrow-btn2 {
-        right: 60px;
-    } */
-
-    /* acheiver-section */
-    /*
-    .acheiver-section {
-        padding: 40px 150px;
-    }.arrow_btn1 {
-        left: 80px;
-        top: 58%;
-    }
-    .arrow_btn2 {
-        top: 58%;
-        right: 64px;
-    }
-    /* feature-section */
-    /* .diff-feature-section {
-        padding: 40px 150px;
-    }
-    .card-item{
-        width: 270px;
-        margin: 15px 10px;
-    }
-    .margin{
-        margin-bottom: 15px;
-    } */
-    /* blog-post */
-    /*.blog-posts{
-        padding: 60px 150px;
-    } */
     .m-show{
         display: none;
     }
@@ -1915,6 +1867,9 @@
     .mobile{
         display: inline-block;
     }
+    .nav-link:hover{
+        color: white;
+    }
     .mobile-nav.is-active{
         display: block;
         text-align: center;
@@ -1934,6 +1889,7 @@
     .banner-left-section {
         width: 100%;
         margin-left: 0px;
+        margin-top: 20px;
     }
     .tagline {    
         font-size: 34px;
@@ -1949,8 +1905,9 @@
         margin-right: 20px;
     }
     .banner-img{
-        width: 181px;
-        height: 180px;
+        width: 220px;
+        height: 210px;
+        object-fit: cover;
     }
     .stats-no {
         font-size: 20px;
