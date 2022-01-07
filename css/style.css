@@ -9,7 +9,7 @@
 .container-lp{
     background-image: url(../img/Untitled\ design\ \(28\).png);
     background-size: 100% 100%;
-    height: 743px;
+    height: 920px;
 }
 .container-nav{
     display: flex;
@@ -18,17 +18,17 @@
     width: 100%;
 }
 .nav-brand-logo{
-    height:43px;
-    width:108px;
+    height:50px;
+    width:130px;
 }
 .nav-items{
-    font-size: 14px;
-    font-weight: 600;
     text-align: center;
     margin-left: auto;
     letter-spacing: 1.5px;
 }
 .nav-item{
+    font-size: 18px;
+    font-weight: 600;
     display: inline-block;
     margin: 0px 20px;
 }
@@ -55,7 +55,7 @@
 }
 .login-btn{
     text-decoration: none;
-    padding: 9px 24px;
+    padding: 9px 30px;
     border-radius: 5px;
     color: white;
     background-color:#7F1AFE;
@@ -121,7 +121,7 @@
 .banner-section{
     display: flex;
     justify-content: space-between;
-    padding: 0px 130px;
+    padding-left: 180px;
     width: 100%;
 }
 /* banner-left-section */
@@ -138,28 +138,31 @@
 }
 .tagline{
     color: #1E283C;
-    font-size: 65px;
-    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 116.9%;
 }
 .banner-text-content{
     color: #50668F;
-    font-size: 18px;
-    line-height: 32px;
-    font-Weight :400;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 179.4%;
+    margin-top: 25px;
 }
 .banner-btn{
     margin-top: 90px;
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: 450px;
 }
 .contact-btn{
-    font-weight: bold;
-    font-size: 12px;
     color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
     text-decoration: none;
     background-color: #7F1AFE;
-    padding: 16px 40px;
+    padding: 18px 40px;
     border-radius: 4px;
 }
 .contact-btn:hover{
@@ -167,12 +170,13 @@
     transition: 0.6s;
 }
 .see-blog-btn{
-    font-size: 12px;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
     color:#262626;
     text-decoration: none;
     background-color: #F2F5FA;
-    padding: 16px 45px;
+    padding: 18px 50px;
     border-radius: 8px;
 }
 .see-blog-btn:hover{
@@ -180,41 +184,37 @@
     transition: 0.3s;
 }
 .stats-number{
-    margin-top: 50px;
-}
-.founded{
-    display: inline-block;
-}
-.students{
-    display: inline-block;
-    margin: 0px 90px
-}
-.average-score{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    margin-top: 70px;
 }
 .stats-no{
     color: #1E283C;
-    font-size: 27px;
     font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
 }
 .stats-txt{
     color: #50668F;
-    font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 126.9%;
 }
 
 /*banner-right-section*/
 .banner-right-section{
+    width: 60%;
 }
 .banner-img{
-    width: 626px;
-    height: 590.99px;
+    width: 873px;
+    height: 776.99px;
 }
 
 /***************** feature secton *************/
 .feature-section{
-    padding: 40px 200px;
+    padding: 40px 240px;
     position: relative;
     margin: 60px 0px;
 }
@@ -243,25 +243,26 @@
 }
 .feature-item{
     background-color:#F2F5FA;
-    padding: 35px 20px;
+    padding: 47px 40px;
     border-radius: 16px;
-    flex: 0 0 346px;
-    margin: 0px 15px;
+    flex: 0 0 420px;
+    margin: 0px 20px;
 }
 .card-title{
     color: #1E283C;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 114.9%;
     margin-bottom: 20px;
 }
 .feature-text{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .card-define{
     color: #50668F;
     font-size: 18px;
     line-height: 182.4%;
+    margin-top: 20px;
 }
 .arrow-btn1{
     position: absolute;
@@ -289,7 +290,7 @@
 /***************** Acheiver secton *************/
 .acheiver-section{
     background-color:#F2F5FA;
-    padding: 60px 200px 80px;
+    padding: 60px 240px 80px;
     position: relative;
     margin: 40px 0px;
 }
@@ -314,7 +315,7 @@
 .acheiver-item{
     background-color: #FFFFFF;
     border-radius: 16px;
-    flex: 0 0 340px;
+    flex: 0 0 346px;
     margin: 32px 24px;
     padding: 32px 30px;
     box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
@@ -327,7 +328,8 @@
 }
 .acheiver-title{
     color: #1E283C;
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 114.9%;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -346,8 +348,8 @@
 
 .acheiver-img img{
     border-radius: 14px;
-    height: 80px;
-    width: 80px;
+    height: 96px;
+    width: 96px;
 }
 .acheiver-detail{
     float: right;
@@ -356,8 +358,9 @@
 }
 .batch-acheiver{
     color: #1E283C;
-    font-size: 18px;
     font-weight: 600;
+    font-size: 20px;
+    line-height: 114.9%;
 }
 .batch{
     text-align: center;
@@ -375,21 +378,20 @@
 }
 /*************difference-section************/
 .diff-feature-section{
-    padding: 40px 180px;
+    padding: 40px 240px 70px;
 }
 .card-difference{
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 400px 400px 400px;
     grid-column-gap: 50px;
     grid-row-gap: 70px;
+    width: 1300px;
+    margin: auto;
     margin-top: 60px;
 }
-.size{
-    font-size: 16px;
-}
 .two-line{
-    width: 600px;
+    width: 700px;
     margin: 20px auto;
     line-height: 25px;
 }
@@ -414,25 +416,26 @@
     background-image: url(..//img/Home/blog-section/Vector\ Pattern.png);
     background-color:#F2F5FA;
     background-size: 100%;
-    padding:80px 210px;
+    padding:80px 240px;
 }
 .blogs{
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .blogs a{
     text-decoration: none;
+    margin: 0px 20px;
 }
 .blog-image{
-    height: 220px;
-    width: 350px;
+    height: 255px;
+    width: 420px;
     border-radius: 18px 18px 0px 0px;
 }
 .blog-detail{
     background-color: #FFFFFF;
-    width: 350px;
-    padding: 20px 15px 20px;
+    width: 420px;
+    padding: 22px 30px 20px;
     border-radius: 0px 0px 18px 18px;
 }
 .blog-date{
@@ -442,7 +445,9 @@
 }
 .blog-title{
     color: #1E283C;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 145%;
 }
 .toblog-btn{
     text-align: center;
@@ -476,7 +481,7 @@
 /**************Testimonial section*****************/
 .testimonial-section{
     background-color:#ffffff;
-    padding: 20px 230px;
+    padding: 20px 240px;
     position: relative;
     margin: 0px;
 }
@@ -496,7 +501,7 @@
 .testimonial-item{
     background-color: #FFFFFF;
     border-radius: 16px;
-    flex: 0 0 319px;
+    flex: 0 0 420px;
     margin: 0px 20px;
     text-align: center;
 }
@@ -510,9 +515,11 @@
 }
 .statement{
     color: #65738f;
-    padding:30px 20px 10px;
-    line-height: 28px;
-    font-size: 14px;
+    padding: 30px 24px 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 182.4%;
+    text-align: center;
 }
 .statement  img{ 
     margin-bottom: 20px;
@@ -524,8 +531,8 @@
     border-radius: 0px 0px 16px 16px
 }
 .testimonial-detail img{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 .user-name{
     font-weight: 500;
@@ -542,33 +549,34 @@
     background-image: url(..//img/Home/blog-section/Vector\ Pattern.png);
     background-color:#F2F5FA;
     background-size: 100%;
-    padding:50px 200px;
+    padding:50px 240px;
 }
 .gallery-grid{
    display: grid;
-   grid-template-rows: auto auto auto;
-    grid-template-columns: 350px 350px 350px;
+   grid-template-rows: 245px 245px;
+   grid-template-columns: 420px 420px 420px;
     grid-column-gap: 20px;
     grid-row-gap: 40px;
+    width: 1300px;
+    margin: auto;
     margin-top: 60px;
 }
 .margin-btm{
     margin-bottom: 35px;
 }
 .image img{
-    height: 240px;
-    width: 350px;
+    height: 245px;
+    width: 420px;
 }
 .togal-btn{
     text-align: center;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     background-color: #7F1AFE;
-    padding: 12px 30px;
-    border-radius: 6px;
+    padding: 18px 40px;
     width: 180px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .togal-btn a{
     text-decoration: none;
@@ -581,7 +589,7 @@
 }
 /* querry-section */
 .querry-section{
-    padding: 60px 200px;
+    padding: 80px 240px;
 }
 .input-field{
     display: inline-block;
@@ -592,9 +600,14 @@
     font-size: 14px;
 }
 .querry-image{
-    height: 400px;
-    width: 520px;
+    height: 450px;
+    width: 670px;
     margin-left: 70px;
+}
+.flex-querry{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 #name-input,#email-input,#subject-input,#message-input{
     margin-bottom: 15px;
@@ -603,15 +616,15 @@
     border-radius: 5px;
 }
 #name-input,#email-input,#subject-input{
-    width: 400px;
-    height: 33px;
+    width: 570px;
+    height: 41px;
 }
 #message-input:focus{
    padding-top: 10px;
 }
 #message-input{
-    width: 400px;
-    height: 150px;
+    width: 570px;
+    height: 160px;
 }
 #name-input,#email-input,#subject-input,#message-input:focus{
     outline: none;
@@ -634,6 +647,7 @@
     padding: 12px 10px;
     border-radius: 6px;
     width: 180px;
+    margin-top: 10px;
 }
 .msg-btn a{
     text-decoration: none;
@@ -642,7 +656,7 @@
 /* footer-container */
 .footer-container{
     background-color: #1E283C;
-    padding: 40px 270px 20px;
+    padding: 60px 410px 30px;
 }
 .footer-content{
     margin: auto;
@@ -651,11 +665,15 @@
 .list-title{
     color: #ffffff;
     font-weight: 600;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 }
 .link-l{
     color: #707B8F;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 17px;
     text-decoration: none;
 }
 .link-item{
@@ -687,7 +705,7 @@
 .links,.contact-info,.student-notes,.social-link{
     display: inline-block;
     vertical-align: top;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 .social-link{
     margin-right: 0px;
@@ -852,9 +870,6 @@
     margin:20px;
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
     border-radius: 0px 0px 18px 18px;
-}
-.blog-title{
-    font-weight: 500;
 }
 /* blog-page */
 .blog-content{
@@ -1914,7 +1929,7 @@
         margin: 0px;
     }
     .tagline {    
-        font-size: 52px;
+        font-size: 37px;
     }
     .m-hidden{
         display: none;
