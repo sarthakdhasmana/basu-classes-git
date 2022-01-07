@@ -507,6 +507,7 @@
     margin: 0px 20px;
     text-align: center;
 }
+
 .testimonial{
     border: 1px solid rgba(0, 0, 0, 0.17);
     border-bottom: none;
@@ -545,6 +546,9 @@
     vertical-align: top;
     margin-top: 15px;
     margin-left: 15px;
+}
+.first-test{
+    margin-left: 0px;
 }
 /* Gallery Section */
 .gallery-section{
@@ -2019,7 +2023,7 @@
     }
     .stats-number-hidden{
         display: inline-block;
-        width: 30%;
+        width: 35%;
         margin-bottom: 20px;
         vertical-align: top;
     }
@@ -2040,11 +2044,11 @@
         line-height: 29px;
     }
     .contact-btn{
-        padding: 18px 30px;
+        padding: 20px 35px;
         font-size: 14px;
     }
     .see-blog-btn{
-        padding: 18px 40px;
+        padding: 20px 40px;
         font-size: 14px;
     }
     /* feature section */
@@ -2103,7 +2107,7 @@
     }
     /* blog-posts */
     .blog-posts{
-        padding: 15px 16px;
+        padding: 15px 16px 35px;
     }
     .two-line {
         width: 470px;
@@ -2114,7 +2118,11 @@
         display: block;
     }
     .blog-image,.blog-detail{
-        width: 327px;
+        width: 329px;
+        text-align: initial;
+    }
+    .blog-detail{
+        padding: 20px;
     }
     .middle-blog {
         margin: 0px;
@@ -2123,9 +2131,6 @@
         display: block;
         margin: 0px;
         margin-bottom: 20px;
-    }
-    .toblog-btn{
-        margin-top: 10px;
     }
     .hide{
         display: none;
@@ -2137,15 +2142,18 @@
         padding: 70px 15px;
     }
     .sub-title {
-        width: 350px;
+        width: 330px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 137%;
     }
     /* testimonial-section */
     .testimonial-section{
         padding: 0px 15px;
     }
     .testimonial-item{
-        flex: 0 0 300px;
-        margin: 0px 15px;
+        flex: 0 0 320px;
+        margin: 25px 15px;
         box-shadow: -3px -3px 24px rgba(33, 41, 79, 0.06), 12px 12px 24px rgba(33, 41, 79, 0.16);
     }
     .testimonial-detail img {
@@ -2155,9 +2163,12 @@
     .user-name{
         margin-top: 10px;
     }
+    .first-test{
+        margin-left: 0px;
+    }
     /* galler-section */
     .gallery-section{
-        padding: 40px 15px;
+        padding: 40px 16px;
         text-align: center;
     }
     .mid-img {
@@ -2165,7 +2176,12 @@
     }
     .image img {
         height: 180px;
-        width: 300px;
+        width: 320px;
+    }
+    .gallery-grid{
+        display: block;
+        width: auto;
+        margin-top: 40px;
     }
     .togal-btn{
         margin-top: 20px;
@@ -2185,7 +2201,7 @@
     }
     /* querry section */
     .querry-section {
-        padding: 40px 15px 0px;
+        padding: 40px 16px 0px;
     }
     .querry-image {
         display: none;
@@ -2198,13 +2214,13 @@
     }
     .input{
         margin: 0px auto;
-        width: 300px;
+        width: 340px;
     }
     #name-input, #email-input, #subject-input {
-        width: 300px;
+        width: 340px;
     }
     #message-input {
-        width: 300px;
+        width: 340px;
     }
     .msg-btn{
         margin: auto;
@@ -2221,6 +2237,9 @@
     }
     .contact-info,.social-link,.student-notes{
         margin-bottom: 20px;
+    }
+    .footer-content {
+        width: 100%;
     }
 
     /* about html */
