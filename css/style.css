@@ -573,6 +573,7 @@
 .image img{
     height: 15.313rem;
     width: 26.25rem;
+    border-radius: 5px;
 }
 .togal-btn{
     text-align: center;
@@ -954,6 +955,25 @@
     text-transform: capitalize;
     color: #50668F;
     margin-top: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<custom Scollbar>>>>>>>>>>>> */
+::-webkit-scrollbar{
+    width: 1.1em;
+}
+::-webkit-scrollbar-track{
+    background-color: #F2F5FA;
+    border-radius: 120px;
+    margin-block: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #21294F;
+    border-radius: 120px;
+    margin: 2px 0px;
+    border: 2px solid #F2F5FA;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #50668F;
 }
 
 
@@ -1920,7 +1940,7 @@
         background: none;
     }
     .container-nav{
-        padding: 30px 16px;
+        padding: 20px 16px;
         align-items: center;
     }
     .nav-brand-logo{
@@ -1949,12 +1969,13 @@
         margin-right: 10px;
     }
     .m-show{
-        display: none;
+        display: inline;
     }
     /* hamburger-menu */
     .hamburger{
         display: inline-block;
         margin-top: 5px;
+        width: 32px;
     }
     .mobile-nav{
         display: none;
@@ -1997,7 +2018,7 @@
         margin: 0px;
     }
     .tagline {    
-        font-size: 37px;
+        font-size: 40px;
     }
     .m-hidden{
         display: none;
@@ -2177,6 +2198,7 @@
     .image img {
         height: 180px;
         width: 320px;
+        border-radius: 13px;
     }
     .gallery-grid{
         display: block;
@@ -2223,7 +2245,7 @@
         width: 340px;
     }
     .msg-btn{
-        margin: auto;
+        margin-right: auto;
     }
     /* footer-container */
     .footer-container{
