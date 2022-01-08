@@ -216,9 +216,8 @@
 
 /***************** feature secton *************/
 .feature-section{
-    padding: 40px 240px;
+    padding: 122px 240px;
     position: relative;
-    margin: 60px 0px;
 }
 .section-title{
     font-weight: 600;
@@ -292,9 +291,8 @@
 /***************** Acheiver secton *************/
 .acheiver-section{
     background-color:#F2F5FA;
-    padding: 60px 240px 80px;
+    padding: 86px 240px;
     position: relative;
-    margin: 40px 0px;
 }
 .section-title-below{
     font-size: 16px;
@@ -380,15 +378,15 @@
 }
 /*************difference-section************/
 .diff-feature-section{
-    padding: 40px 240px 70px;
+    padding: 122px 240px;
 }
 .card-difference{
     display: grid;
-    grid-template-rows: 17.5rem 17.5rem;
-    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows: 19.5rem 19.5rem;
+    grid-template-columns: 27.5rem 27.5rem 27.5rem;
     grid-column-gap: 50px;
     grid-row-gap: 70px;
-    width: 1300px;
+    width: 100%;
     margin: auto;
     margin-top: 60px;
 }
@@ -418,12 +416,12 @@
     background-image: url(..//img/Home/blog-section/Vector\ Pattern.png);
     background-color:#F2F5FA;
     background-size: 100%;
-    padding:80px 240px;
+    padding:110px 240px;
 }
 .blogs{
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .blogs a{
     text-decoration: none;
@@ -431,12 +429,12 @@
 }
 .blog-image{
     height: 15.938rem;
-    width: 26.25rem;
+    width: 27.25rem;
     border-radius: 18px 18px 0px 0px;
 }
 .blog-detail{
     background-color: #FFFFFF;
-    width: 26.25rem;
+    width: 27.25rem;
     padding: 22px 30px 20px;
     border-radius: 0px 0px 18px 18px;
 }
@@ -470,26 +468,22 @@
 .sub-title-section{
     background-color: #1E283C;
     color: #ffffff;
-    font-size: 45px;
-    line-height: 55px;
-    padding: 120px 0px;
+    padding: 135px 0px;
 }
 .sub-title{
-    width: 745px;
+    width: 890px;
     text-align: center;
     margin: auto;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 137%;
 }
 /**************Testimonial section*****************/
 .testimonial-section{
     background-color:#ffffff;
-    padding: 20px 240px;
+    padding: 122px 240px;
     position: relative;
     margin: 0px;
-}
-.slider-testimonial{
-    margin-top: 60px;
-    margin-bottom: 40px;
 }
 .testimonial-list{
     display: flex;
@@ -555,15 +549,15 @@
     background-image: url(..//img/Home/blog-section/Vector\ Pattern.png);
     background-color:#F2F5FA;
     background-size: 100%;
-    padding:50px 240px;
+    padding:70px 240px;
 }
-.gallery-grid{
+.gallery-grid-landing{
    display: grid;
-   grid-template-rows: 15.313rem 15.313rem;
-   grid-template-columns: 26.25rem 26.25rem 26.25rem;
-    grid-column-gap: 20px;
-    grid-row-gap: 40px;
-    width: 1300px;
+   grid-template-rows: 17.313rem 17.313rem;
+    grid-template-columns: 28.2rem 28.2rem 28.2rem;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    width: 100%;
     margin: auto;
     margin-top: 60px;
 }
@@ -571,8 +565,8 @@
     margin-bottom: 35px;
 }
 .image img{
-    height: 15.313rem;
-    width: 26.25rem;
+    height: 17.313rem;
+    width: 28.25rem;
     border-radius: 5px;
 }
 .togal-btn{
@@ -580,8 +574,8 @@
     font-size: 14px;
     font-weight: bold;
     background-color: #7F1AFE;
-    padding: 18px 40px;
-    width: 180px;
+    padding: 18px 0px;
+    width: 190px;
     margin: auto;
     margin-top: 50px;
 }
@@ -589,14 +583,9 @@
     text-decoration: none;
     color: white;
 }
-
-/* sub-title-quote */
-.weight{
-    width: 640px;
-}
 /* querry-section */
 .querry-section{
-    padding: 80px 240px;
+    padding: 122px 240px;
 }
 .input-field{
     display: inline-block;
@@ -632,28 +621,36 @@
 #message-input{
     width: 570px;
     height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
+textarea { resize: none; }
 #name-input,#email-input,#subject-input,#message-input:focus{
     outline: none;
     font-size: 14px;
     color: #50668F;
     padding: 0px 10px;
+    margin-bottom: 24px;
 }
 #message-input:focus{
     text-align: left;
+    padding-top: 10px;
 }
 .name,.email,.subject,.message{ 
     margin-bottom: 6px;
     margin-left: 6px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 179%;
 }
 .msg-btn{
     text-align: center;
     font-size: 14px;
     font-weight: 700;
     background-color: #7F1AFE;
-    padding: 12px 10px;
-    border-radius: 6px;
-    width: 180px;
+    padding: 17px 0px;
+    border-radius: 5px;
+    width: 190px;
     margin-top: 10px;
 }
 .msg-btn a{
@@ -663,7 +660,7 @@
 /* footer-container */
 .footer-container{
     background-color: #1E283C;
-    padding: 60px 410px 30px;
+    padding: 76px 410px;
 }
 .footer-content{
     margin: auto;
@@ -690,7 +687,7 @@
     margin-bottom: 7px;
 }
 .link-list,.contact-list{
-    margin-top: 10px;
+    margin-top: 18px;
     list-style:none;
 }
 .link-l-brand{
@@ -2070,17 +2067,17 @@
         line-height: 29px;
     }
     .contact-btn{
-        padding: 20px 35px;
+        padding: 17px 30px;
         font-size: 14px;
     }
     .see-blog-btn{
-        padding: 20px 40px;
+        padding: 18px 45px;
         font-size: 14px;
     }
     /* feature section */
     .feature-section {
-        padding: 20px 16px;
-        margin: 50px 0px;
+        padding: 0px 16px;
+        margin: 90px 0px;
     }
     .section-title{
         font-size: 28px;
@@ -2106,8 +2103,7 @@
     }
     /* acheiver section */
     .acheiver-section {
-        padding: 40px 16px;
-        margin: 20px 0px 0px;
+        padding: 54px 16px;
     }
     .section-title {
         font-size: 30px;
@@ -2133,7 +2129,7 @@
     }
     /* blog-posts */
     .blog-posts{
-        padding: 15px 16px 35px;
+        padding: 54px 16px;
     }
     .two-line {
         width: 470px;
@@ -2144,7 +2140,7 @@
         display: block;
     }
     .blog-image,.blog-detail{
-        width: 329px;
+        width: 100%;
         text-align: initial;
     }
     .blog-detail{
@@ -2163,9 +2159,10 @@
     }
     /* sub-title */
     .sub-title-section {
-        font-size: 25px;
-        line-height: 35px;
-        padding: 70px 15px;
+        padding: 46px 16px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 137%;
     }
     .sub-title {
         width: 330px;
@@ -2194,15 +2191,22 @@
     }
     /* galler-section */
     .gallery-section{
-        padding: 40px 16px;
+        padding: 54px 16px;
         text-align: center;
+    }
+    .gallery-grid-landing{
+        display: grid;
+        grid-template-columns: 10.125rem 10.125rem;
+        grid-template-rows: 7.7rem 7.7rem 7.7em;
+        grid-row-gap: 15px;
+        grid-column-gap: 10px;
     }
     .mid-img {
         margin: 0px;
     }
     .image img {
-        height: 180px;
-        width: 320px;
+        height: 7.63rem;
+        width: 100%;
         border-radius: 13px;
     }
     .gallery-grid{
@@ -2221,14 +2225,11 @@
         padding: 10px 15px;
     }
     .slider-testimonial {
-        margin: 40px 0px;
-    }
-    .hide-mob{
-        display: none;
+        margin: 54px 0px;
     }
     /* querry section */
     .querry-section {
-        padding: 40px 16px 0px;
+        padding: 54px 16px;
     }
     .querry-image {
         display: none;
@@ -2238,23 +2239,23 @@
         display: block;
         margin: auto;
         margin-bottom: 20px;
+        width: 100%;
     }
     .input{
         margin: 0px auto;
-        width: 340px;
     }
     #name-input, #email-input, #subject-input {
-        width: 340px;
+        width: 100%;
     }
     #message-input {
-        width: 340px;
+        width: 100%;
     }
     .msg-btn{
         margin-right: auto;
     }
     /* footer-container */
     .footer-container{
-        padding: 30px 15px 20px;
+        padding: 54px 15px;
     }
     .links{
         display: none;
