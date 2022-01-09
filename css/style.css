@@ -1228,13 +1228,20 @@ textarea { resize: none; }
        padding: 40px 110px;
     }
     .blogs{
-        text-align: center;
+        grid-column-gap: 30px;
+        grid-template-columns: 1fr 1fr;
     }
-    .middle-blog {
-        margin-left: 30px;
+    .blog-image {
+        height: 12.938rem;
+    }
+    .blog-detail {
+        padding: 15px;
+    }    
+    .blog-title {
+        font-size: 18px;
     }
     .bl-card{
-        margin-top: 30px;
+        display: none;
     }
     /* sub-title */
     .sub-title-section {
@@ -1243,24 +1250,20 @@ textarea { resize: none; }
     }
     /* gallery section */
     .gallery-section{
-        padding: 30px 120px;
+        padding: 50px 120px;
     }
-    .image{
-        margin: 8px 22px;
-    }
-    .image img {
-        height: 220px;
-        width: 320px;
+    .gallery-grid-landing {
+        grid-template-rows: 15.313rem 15.313rem;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 25px;
     }
     /* testimonial section */
     .testimonial-section{
-        padding: 20px 110px;
-    }
-    .slider-testimonial{
-        margin: 40px 0px;
+        padding: 70px 110px;
     }
     .testimonial-item{
-        flex: 0 0 270px;
+        flex: 0 0 350px;
     }
     /* sub-title */
     .weight {
@@ -1353,49 +1356,63 @@ textarea { resize: none; }
 
 /***********Medium Desktop View(767px and 992px)***********/
 @media (min-width:768px) and (max-width:991px){
+    .container-lp {
+        height: 840px;
+    }
     .container-nav{
-        padding: 30px 60px;
+        padding: 30px 40px;
+    }
+    .nav-brand-logo {
+        height: 40px;
+        width: 110px;
     }
     .login-btn{
-        padding: 9px 20px;
+        padding: 8px 20px;
     }
     .right-mobile{
         display: none;
     }
     .nav-item {
-        margin: 0px 8px;
+        margin: 0px 5px;
+        font-size: 16px;
     }
     .hide-md{
         display: none;
     }
     .banner-section {
-        padding: 25px 50px;
+        padding: 10px 0px;
+        padding-left: 90px;
     }
     .banner-left-section{
-        margin-left: 35px;
         margin-top: 30px;
+        width: 45%;
     }
     .tagline {
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 800;
     }
     .m-show{
         display: none;
     }
     .banner-text-content{
-        line-height: 25px;
+        line-height: 28px;
+        font-size: 18px;
     }
     .banner-btn {
         margin-top: 60px;
+        width: 100%;
     }
     .contact-btn {
-        font-size: 10px;
-    }
-    .contact-us-btn{
-        margin-right: 5px;
+        font-size: 14px;
+        padding: 17px 25px;
     }
     .see-blog-btn{
-        padding: 14px 30px;
+        padding: 17px 30px;
+        font-size: 14px;
+    }
+    .stats-number {
+        width: 100%;
+        margin-top: 50px;
     }
     .banner-img {
         width: 380px;
@@ -1666,6 +1683,11 @@ textarea { resize: none; }
     .nav-items{
         display: none;
     }
+    .hidden-section{
+        display: flex;
+        justify-content: space-between;
+        height: 350px;
+    }
     .show-mobile{
         display: inline-block;
         margin-left: auto;
@@ -1685,46 +1707,50 @@ textarea { resize: none; }
         margin-right: 10px;
     }
     .banner-section {
-        padding: 13px 21px;
+        padding: 13px 16px;
     }
     .banner-left-section {
         width: 100%;
         margin-left: 0px;
+        margin-top: 0px;
     }
     .tagline {    
-        font-size: 40px;
+        font-size: 58px;
     }
     .m-hidden{
         display: none;
     }
-    .m-show{
-        display: none;
+    .banner-text-content {
+        font-size: 20px;
     }
     .banner-btn {
-        margin-top: 30px;
+        margin-top: 50px;
         text-align: center;
-    }
-    .contact-us-btn {
-        margin-right: 20px;
+        width: 90%;
+        justify-content: space-evenly;
     }
     .banner-img{
-        width: 350px;
-        height: 250px;
+        height: 100%;
     }
     .banner-text{
         margin-top: 15px;
     }
     .stats-no {
-        font-size: 24px;
+        font-size: 28px;
+    }
+    .stats-txt{
+        font-size: 16px;
     }
     .stats-number{
         display: none;
     }
     .stats-number-hidden{
-        display: inline-block;
-        width: 35%;
-        margin-bottom: 20px;
-        vertical-align: top;
+        width: 25%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
     }
     .founded,.students,.average-score  {
         display: block;
@@ -1735,14 +1761,16 @@ textarea { resize: none; }
         display: none;
     }
     .banner-right-section-hidden{
-        width: 58%;
+        width: 70%;
         display: inline-block;
     }
     .contact-btn{
-        padding: 14px 23px;
+        padding: 20px 40px;
+        font-size: 16px;
     }
     .see-blog-btn{
-        padding: 14px 26px;
+        padding: 20px 65px;
+        font-size: 16px;
     }
     .feature-section {
         padding: 20px 16px;
@@ -1752,13 +1780,11 @@ textarea { resize: none; }
     }
     /* feature section */
     .feature-section {
-        padding: 0px 20px;
-        margin: 30px 0px;
+        padding: 90px 16px;
     }
     .feature-item {
         padding: 25px 20px;
-        flex: 0 0 260px;
-        margin: 0px 20px;
+        flex: 0 0 350px;
     }
     .arrow-btn1{
         display: none;
@@ -1768,12 +1794,11 @@ textarea { resize: none; }
     }
     /* acheiver section */
     .acheiver-section{
-        padding: 20px 20px;
+        padding: 90px 16px;
         margin-bottom: 0px;
     }
     .acheiver-item {
-        flex: 0 0 260px;
-        margin: 0px 25px;
+        flex: 0 0 280px;
         padding: 20px;
     }
     .slider-acheiver {
@@ -1791,13 +1816,27 @@ textarea { resize: none; }
     }
     /* blog-section */
     .blog-posts{
-        padding: 20px;
+        padding: 50px 16px;
     }
     .hide{
         display: none;
     }
+    .bl-card{
+        display: none;
+    }
     .blogs{
-        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-template-rows: 1fr;
+    }
+    .blog-image {
+        height: 12.938rem;
+    }
+    .blog-detail{
+        padding: 15px 20px;
+    }
+    .blog-title{
+        font-size: 18px;
     }
     .blogs a{
         margin-bottom: 20px;
@@ -1807,31 +1846,30 @@ textarea { resize: none; }
     }
     /* sub-title */
     .sub-title-section{
-        font-size: 30px;
         line-height: 45px;
         padding: 70px 0px;
     }
     .sub-title {
         width: 500px;
+        font-size: 30px;
     }
     /* gallery-section */
     .gallery-section{
-        padding: 15px;
+        padding: 50px 16px;
     }
-    .image img {
-        height: 200px;
-        width: 230px;
-    }
-    .image{
-        margin: 5px 12px;
+    .gallery-grid-landing {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 25px;
     }
     /* testimonial section */
     .testimonial-section{
-        padding: 20px 15px 0px;
+        padding: 50px 16px 15px;
     }
     .testimonial-item{
-        flex: 0 0 262px;
-        margin: 20px 15px;
+        flex: 0 0 310px;
+        margin-bottom: 35px;
         box-shadow: -3px -3px 24px rgba(33, 41, 79, 0.06), 12px 12px 24px rgba(33, 41, 79, 0.16);
     }
     .slider-testimonial {
@@ -1844,36 +1882,13 @@ textarea { resize: none; }
     .testimonial-detail{
         padding: 10px 0px;
     }
-    /* querry section */
-     .querry-section {
-        padding: 20px 15px;
-    }
-    .querry-image {
-        display: none;
-    }
-    .input-field{
-        float: none;
-    }
-    .input{
-        margin: 0px auto;
-        width: 300px;
-    }
-    #name-input, #email-input, #subject-input {
-        width: 300px;
-    }
-    #message-input {
-        width: 300px;
-    }
-    .msg-btn{
-        margin: auto;
-    }
     /* sub-title */
     .weight {
         width: 480px;
     }
     /* querry-section */
     .querry-section {
-        padding: 20px 30px;
+        padding: 50px 16px;
     }
     .querry-image {
         display: none;
@@ -1881,29 +1896,30 @@ textarea { resize: none; }
     .input-field{
         display: block;
         margin-left: 0px;
+        width: 100%;
     }
     .input{
         margin: auto;
-        width: 351px;
+        width: 80%;
     }
     .msg-btn {
         margin:auto;
     }
     #name-input, #email-input, #subject-input {
-        width: 350px;
+        width: 100%;
     }
     #message-input{
-        width: 350px;
+        width: 100%;
     }   
     /* footer-section */
     .footer-container{
-        padding: 30px 20px 20px;
+        padding: 30px 60px;
     }
     .footer-content{
         width: auto;
     }
     .links, .contact-info, .student-notes, .social-link {
-        margin-right: 25px;
+        margin-right: 50px;
     }
     .social-link{
         display: block;
@@ -2282,6 +2298,7 @@ textarea { resize: none; }
     .gallery-section{
         padding: 54px 16px;
         text-align: center;
+        background-image: none;
     }
     .gallery-grid-landing{
         display: grid;
