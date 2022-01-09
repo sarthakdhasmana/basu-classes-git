@@ -382,8 +382,6 @@
 }
 .card-difference{
     display: grid;
-    /* grid-template-rows: 19.5rem 19.5rem;
-    grid-template-columns: 27.5rem 27.5rem 27.5rem; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 50px;
@@ -726,141 +724,6 @@ textarea { resize: none; }
     margin-top: 24px;
 }
 
-/* >>>>>>>>>>>>>>>>>>>About Us>>>>>>>>>>>>>>>>>>>>>> */
-.about-section{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 230px;
-}
-.left-section-title{
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 126.9%;
-    color: #1E283C;
-    margin-bottom: 15px;
-}
-.text-contnt{
-    font-weight: 500; 
-    font-size: 20px;
-    line-height: 179.4%;
-    color: #50668F;
-}
-.margin-tp{
-    margin-top: 30px;
-}
-.hidde{
-    display: none;
-}
-.about-left-section{
-    width: 40%;
-    padding: 25px 0px;
-}
-.aside-img{
-    height: 34.375rem;
-    width: 53.125rem;
-}
-.about-us{
-    padding: 50px 0px;
-}
-.vision-section{
-    margin-top: 130px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 230px;
-}
-.mid-txt{
-    border: 6px solid #1E283C;
-    width: 38%;
-    background: #1E283C;
-    border-radius: 5px;
-    height: 10px;
-}
-.hide-full{
-    display: none;
-}
-.founder{
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 100%;
-}
-.founder-setion{
-    padding: 20px 150px;
-}
-.founder-card{
-    padding: 80px 117px;
-}
-.found-card{
-    display: flex;
-    justify-content: flex-start;
-}
-.founder-img{
-    width: 300px;
-    height: 348px;
-    border-radius: 16px 0px 0px 16px;
-}
-.right{
-    border-radius: 0px 16px 16px 0px;
-}
-.second{
-    margin-top: 50px;
-    justify-content: flex-end;
-}
-.margn{
-    margin-top: 50px;
-}
-.founder-contnt{
-    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
-    color: #1E283C;
-    padding:40px;    
-    border-radius: 0px 16px 16px 0px;
-}
-.left{
-    border-radius: 16px 0px 0px 16px;
-}
-.founder-name{
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 114.9%;
-    text-transform: capitalize;
-    color: #1E283C;
-}
-.founder-tag{
-    margin-top: 10px;
-}
-.tag{
-    display: inline-block;
-    background: rgba(80, 102, 143, 0.17);
-    border-radius: 4px;
-    padding: 5px 7px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 100%;
-}
-.subjects{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 138%;
-    color: #1E283C;
-    margin-top: 55px;
-}
-.founder-exp{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #1E283C;
-    margin: 15px 0px 0px;
-}
-.exp{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 126.9%;
-    color: #50668F;
-}
-.section-hr{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 /* >>>>>>>>>>>>>>>blog page>>>>>>>>>>>>>>> */
 .blog-banner-img{
@@ -1113,11 +976,10 @@ textarea { resize: none; }
         justify-content: space-between;
         width: 85%;
     }
-    
-
     .m-show{
         display: none;
     }
+
 }
 
 
@@ -1174,7 +1036,7 @@ textarea { resize: none; }
         width: 92%;
     }
     .stats-number{
-        width: 100%;
+        width: 90%;
     }
     .banner-right-section {
         width: 54%;
@@ -1294,48 +1156,8 @@ textarea { resize: none; }
     .footer-content{
         width: auto;
     }
-    .links, .contact-info, .student-notes, .social-link {
+    .links, .contact-info, .student-notes{
        margin-right: 40px;
-    }
-    .about-us {
-        padding: 0px;
-    }
-    .about-left-section{
-        width: 420px;
-        margin-left: 80px;
-        margin-right: 20px;
-    }
-    .hidde{
-        display: none;
-    }
-    .aside-img {
-        margin-top: 70px;
-        height: 370px;
-        width: 446px;
-    }
-    .vision-section {
-        margin-top: 30px;
-    }
-    .founder-setion {
-        padding: 20px 80px;
-    }
-    .founder{
-        padding: 0px 30px;
-    }
-    .mid-txt{
-        width: 30%;
-    }
-    .founder-img {
-        height: 240px;
-    }
-    .founder-contnt{
-        padding: 30px;
-    }
-    .founder-card {
-        padding: 80px 0px;
-    }
-    .second{
-        margin-left: 250px;
     }
     .blog-cards {
         padding: 20px 110px;
@@ -1352,6 +1174,7 @@ textarea { resize: none; }
     .news-det {
         width: 440px;
     }
+
 }
 
 /***********Medium Desktop View(767px and 992px)***********/
@@ -1360,7 +1183,7 @@ textarea { resize: none; }
         height: 840px;
     }
     .container-nav{
-        padding: 30px 40px;
+        padding: 30px 20px;
     }
     .nav-brand-logo {
         height: 40px;
@@ -1554,56 +1377,7 @@ textarea { resize: none; }
        width: 154px;
        margin-bottom: 15px;
     }
-    .about-us {
-        padding: 0px 60px;
-    }
-    .about-left-section{
-        width: auto;
-        margin:0px
-    }
-    .about-img-right {
-        margin: auto;
-        width: 600px;
-        display: block;
-    }
-    .hidde{
-        display: none;
-    }
-    .hide-full{
-        display: none;
-    }
-    .aside-img {
-        margin-top: 10px;
-        height: 370px;
-        width: auto;
-    }
-    .vision-section {
-        margin-top: 30px;
-    }
-    .founder-setion {
-        padding: 20px 80px;
-    }
-    .founder{
-        padding: 0px 30px;
-    }
-    .mid-txt{
-        width: 25%;
-    }
-    .founder-img {
-        height: 240px;
-    }
-    .founder-contnt{
-        padding: 30px;
-    }
-    .founder-card {
-        padding: 70px 0px;
-    }
-    .second{
-        margin-left: 0px;
-    }
-    .tab-view{
-        display: none;
-    }
+
     .hide-mob{
         display: none;
     }
@@ -1918,75 +1692,22 @@ textarea { resize: none; }
     .footer-content{
         width: auto;
     }
-    .links, .contact-info, .student-notes, .social-link {
-        margin-right: 50px;
-    }
-    .social-link{
-        display: block;
-        margin: auto;
-       width: 154px;
-       margin-bottom: 15px;
-    }
-    .about-us {
-        padding: 0px 30px;
-    }
-    .about-left-section{
-        width: auto;
-        margin:0px
-    }
-    .about-img-right {
-        margin: auto;
-        display: block;
-    }
-    .hidde{
+    .links{
         display: none;
     }
-    .aside-img {
-        margin-top: 10px;
-        height: 310px;
+    .contact-info{
         width: auto;
     }
-    .vision-section {
-        margin-top: 30px;
-    }
-    .founder-setion {
-        padding: 20px 30px;
-    }
-    .founder{
-        padding: 0px 30px;
-    }
-    .mid-txt{
-        width: 25%;
-    }
-    .founder-img {
-        object-fit: cover;
-        width: 480px;
-        height: 220px;
-    }
-    .hide-full{
+    .contact-info,.social-link,.student-notes{
+        margin-bottom: 20px;
         display: block;
+        width: 300px;
     }
-    .found-card{
-        display: block;
-        width: 480px;
-        margin: auto;
-        margin-bottom: 40px;
+    .footer-content {
+        width: 100%;
     }
-    .hidden-img{
-        display: none;
-    }
-    .founder-img {
-        border-radius: 16px 16px 0px 0px;
-    }
-    .founder-contnt{
-        padding: 30px;
-    }
-    .founder-card {
-        padding: 70px 0px;
-    }
-    .tab-view{
-        display: none;
-    }
+
+   
     .blog-cards {
         padding: 20px;
         text-align: center;
@@ -2051,8 +1772,8 @@ textarea { resize: none; }
         align-items: center;
     }
     .nav-brand-logo{
-        height:35px;
-        width:100px;
+        height: 32px;
+        width: 90px;
     }
     .nav-items{
         display: none;
@@ -2361,7 +2082,7 @@ textarea { resize: none; }
     }
     /* footer-container */
     .footer-container{
-        padding: 54px 15px;
+        padding: 54px 16px;
     }
     .links{
         display: none;
@@ -2376,79 +2097,7 @@ textarea { resize: none; }
         width: 100%;
     }
 
-    /* about html */
-    .about-us{
-        padding: 0px 20px;
-        width: fit-content;
-    }
-    .about-left-section{
-        display: block;
-        width: fit-content;
-        margin: 0px;
-    }
-    .left-section-title{
-        font-size: 50px;
-    }
-    .margin-tp {
-        margin-top: 20px;
-    }
-    .text-contnt{
-        font-size: 18px;
-    }
-    .about-img-right{
-        display: block;
-        text-align: center;
-    }
-    .aside-img {
-        height: 250px;
-        width: 390px;
-    }
-    .hidden{
-        display: none;
-    }
-    .vision-section {
-        margin-top: 20px;
-    }
-    .founder-setion {
-        padding: 0px 20px;
-    }
-    .founder{
-        padding: 0px 20px;
-    }
-    .mid-txt{
-        width: 23%;
-    }
-    .founder{
-        font-size: 40px;
-    }
-    .founder-card {
-        padding: 20px;
-    }
-    .found-card{
-        display: block;
-        width: 350px;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .founder-img {
-        height: 200px;
-        width: 350px;
-        object-fit: cover;
-        border-radius: 16px 16px 0px 0px;
-        display: block;
-    }
-    .founder-contnt{
-        padding: 20px;
-    }
-    .subjects{
-        margin-top: 20px;
-    }
-    .hidden-img{
-        display: none;
-    }
-    .section-hr{
-        text-align: center;
-    }
+   
     .blog-banner-img{
         height: 270px;
     }

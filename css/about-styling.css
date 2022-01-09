@@ -1,0 +1,514 @@
+/* >>>>>>>>>>>>>>>>>>>About Us>>>>>>>>>>>>>>>>>>>>>> */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 230px;
+    align-items: center;
+}
+.left-section-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 126.9%;
+    color: #1E283C;
+    margin-bottom: 15px;
+}
+.text-contnt{
+    font-weight: 500; 
+    font-size: 22px;
+    line-height: 179.4%;
+    color: #50668F;
+}
+.margin-tp{
+    margin-top: 30px;
+}
+.hidde{
+    display: none;
+}
+.about-left-section{
+    width: 40%;
+    padding: 25px 0px;
+}
+.about-img-right{
+    width: 50%;
+}
+.aside-img{
+    height: 34.375rem;
+    width: 100%;
+    object-fit: cover;
+}
+.about-us{
+    padding: 50px 0px;
+}
+.vision-section{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    align-items: center;
+}
+.mid-txt{
+    border: 6px solid #1E283C;
+    width: 38%;
+    background: #1E283C;
+    border-radius: 5px;
+    height: 10px;
+}
+.hide-full{
+    display: none;
+}
+.founder{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+}
+.founder-setion{
+    padding: 20px 150px;
+}
+.founder-card{
+    padding: 80px 117px;
+}
+.found-card{
+    display: flex;
+    justify-content: flex-start;
+}
+.founder-img{
+    width: 260px;
+    height: 310px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.right{
+    border-radius: 0px 16px 16px 0px;
+}
+.second{
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.margn{
+    margin-top: 50px;
+}
+.founder-contnt{
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
+    color: #1E283C;
+    padding:40px;    
+    border-radius: 0px 16px 16px 0px;
+}
+.left{
+    border-radius: 16px 0px 0px 16px;
+}
+.founder-name{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 114.9%;
+    text-transform: capitalize;
+    color: #1E283C;
+}
+.founder-tag{
+    margin-top: 10px;
+}
+.tag{
+    display: inline-block;
+    background: rgba(80, 102, 143, 0.17);
+    border-radius: 4px;
+    padding: 5px 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+.subjects{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 138%;
+    color: #1E283C;
+    margin-top: 55px;
+}
+.founder-exp{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1E283C;
+    margin: 15px 0px 0px;
+}
+.exp{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 126.9%;
+    color: #50668F;
+}
+.section-hr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/******************************************************MEDIA QUERIES*********************************************************************/
+/***********Full View(screen and 1200px)***********/
+@media (min-width:1200px) and (max-width:1400px){
+    /* <<<<<<<<<<<<<<<About page>>>>>>>>>>>>>> */
+    .about-section {
+        padding-left: 140px;
+        align-items: center;
+    }
+    .about-img-right{
+        width: 55%;
+    }
+    .aside-img {
+        height: 31.375rem;
+        width: 100%;
+    }
+    .founder-card {
+        padding: 80px 0px;
+    }
+    .vision-section {
+        padding-right: 100px;
+        align-items: center;
+    }
+    .mid-txt {
+        width: 30%;
+    }
+    .founder-name {
+        font-size: 38px;
+    }
+    .founder-contnt {
+        padding: 30px 25px 10px;
+    }
+}
+
+/***********Desktop View(992px and 1199px)***********/
+@media (min-width:992px) and (max-width:1199px){
+/* <<<<<<<<<<<<<<<About page>>>>>>>>>>>>>> */
+
+    /* old-alteration */
+    .about-us {
+        padding: 0px;
+    }
+    .hidde{
+        display: none;
+    }
+    .aside-img {
+        margin-top: 70px;
+        height: 370px;
+        width: 446px;
+    }
+    .vision-section {
+        margin-top: 30px;
+    }
+    .founder-setion {
+        padding: 90px 70px 0px;
+    }
+    .mid-txt{
+        width: 30%;
+    }
+    .founder-contnt{
+        padding: 30px;
+    }
+    .founder-card {
+        padding: 80px 0px;
+    }
+    .about-section {
+        padding-left: 100px;
+        align-items: center;
+    }
+    .about-left-section {
+        width: 43%;
+    }
+    .left-section-title {
+        font-size: 45px;
+    }
+    .text-contnt {
+        font-size: 18px;
+    }
+    .margin-tp {
+        margin-top: 15px;
+    }
+    .about-img-right{
+        width: 55%;
+    }
+    .aside-img {
+        height: 24.375rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    .vision-section {
+        padding-right: 80px;
+        align-items: center;
+    }
+    .vision{
+        padding-left: 30px;
+    }
+    .mid-txt {
+        width: 30%;
+    }
+    .founder-img {
+        height: 250px;
+        object-fit: cover;
+    }
+    .founder-name {
+        font-size: 38px;
+    }
+    .founder-contnt {
+        padding: 15px 25px;
+    }
+}
+/***********Medium Desktop View(767px and 992px)***********/
+@media (min-width:768px) and (max-width:991px){
+     /* <<<<<<<<<<<<<<<About page>>>>>>>>>>>>>> */
+
+    /* old-alteration */
+    .about-us {
+        padding: 0px;
+    }
+    .hidde{
+        display: none;
+    }
+    .aside-img {
+        height: 370px;
+        width: 446px;
+    }
+    .vision-section {
+        margin-top: 30px;
+    }
+    .founder-setion {
+        padding: 90px 40px 0px;
+    }
+    .mid-txt{
+        width: 30%;
+    }
+    .founder-contnt{
+        padding: 30px;
+    }
+    .founder-card {
+        padding: 80px 0px;
+    }
+    .about-section {
+        padding-left: 70px;
+        align-items: center;
+    }
+    .about-left-section {
+        width: 50%;
+    }
+    .left-section-title {
+        font-size: 40px;
+    }
+    .text-contnt {
+        font-size: 16px;
+    }
+    .margin-tp {
+        margin-top: 15px;
+    }
+    .about-img-right{
+        width: 100%;
+    }
+    .aside-img {
+        height: 24.375rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    .vision-section {
+        padding-right: 40px;
+        align-items: center;
+    }
+    .vision{
+        padding-left: 30px;
+    }
+    .mid-txt {
+        width: 28%;
+    }
+    .founder-img {
+        height: 250px;
+        object-fit: cover;
+    }
+    .founder {
+        font-size: 50px;
+    }
+    .found-card{
+        justify-content: center;
+    }
+    .second{
+        justify-content: center;
+    }
+    .founder-name {
+        font-size: 38px;
+    }
+    .founder-contnt {
+        padding: 15px 25px;
+    }
+}
+
+
+/***********Mobile medium View(566px and 767px)***********/
+@media (min-width:567px) and (max-width:767px) {
+/* <<<<<<<<<<<<<<<About page>>>>>>>>>>>>>> */ 
+    .about-us {
+        padding: 0px 25px;
+    }
+    .about-section{
+        padding-left: 0px;
+    }
+    .about-left-section{
+        width: auto;
+        margin:0px
+    }
+    .about-img-right {
+        margin: auto;
+        display: block;
+        width: auto;
+    }
+    .hidde{
+        display: none;
+    }
+    .aside-img {
+        margin-top: 10px;
+        height: 310px;
+        width: 100%;
+    }
+    .vision-section {
+        margin-top: 30px;
+        padding-right: 0px;
+    }
+    .founder-setion {
+        padding: 20px 25px;
+    }
+    .founder{
+        padding-right: 20px;
+        font-size: 45px;
+    }
+    .mid-txt{
+        width: 50%;
+    }
+    .diff{
+        width: 60%;
+    }
+    .mid-hd{
+        display: none;
+    }
+    .subjects{
+        margin-top: 40px;
+    }
+    .founder-img {
+        object-fit: cover;
+        width: 480px;
+        height: 220px;
+    }
+    .hide-full{
+        display: block;
+    }
+    .found-card{
+        display: block;
+        width: 480px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .founder-name{
+        font-size: 40px;
+    }
+    .hidden-img{
+        display: none;
+    }
+    .founder-img {
+        border-radius: 16px 16px 0px 0px;
+    }
+    .founder-contnt{
+        padding: 30px 20px;
+        border-radius: 0px 0px 16px 16px
+    }
+    .founder-card {
+        padding: 70px 0px;
+    }
+    .tab-view{
+        display: none;
+    }
+}
+
+/***********Mobile View(567px)***********/
+@media (max-width:566px){
+    /* about html */
+    .about-us{
+        padding: 0px 16px;
+        width: fit-content;
+    }
+    .about-section{
+        padding-left: 0px;
+    }
+    .about-left-section{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+    .left-section-title{
+        font-size: 45px;
+    }
+    .margin-tp {
+        margin-top: 20px;
+    }
+    .text-contnt{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .about-img-right{
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    .aside-img {
+        height: 250px;
+        width: 100%;
+    }
+    .hidden{
+        display: none;
+    }
+    .vision-section {
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+    .founder-setion {
+        padding: 40px 16px;
+    }
+    .mid-txt{
+        width: 50%;
+    }
+    .diff{
+        width: 60%;
+    }
+    .mid-hd{
+        display: none;
+    }
+    .founder{
+        font-size: 40px;
+    }
+    .founder-card {
+        padding: 40px 0px;
+    }
+    .found-card{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .founder-img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 16px 16px 0px 0px;
+        display: block;
+    }
+    .founder-contnt{
+        padding: 20px;
+        border-radius: 0px 0px 16px 16px
+    }
+    .subjects{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .founder-exp {
+        font-size: 16px;
+    }
+    .founder-name {
+        font-size: 30px;
+    }
+    .hidden-img{
+        display: none;
+    }
+    .section-hr{
+        text-align: center;
+    }
+}
