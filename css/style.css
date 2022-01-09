@@ -18,8 +18,8 @@
     width: 100%;
 }
 .nav-brand-logo{
-    height:50px;
-    width:130px;
+    height: 60px;
+    width: 130px;
 }
 .nav-items{
     text-align: center;
@@ -121,13 +121,12 @@
 .banner-section{
     display: flex;
     justify-content: space-between;
-    padding-left: 180px;
+    padding-left: 230px;
     width: 100%;
 }
 /* banner-left-section */
 .banner-left-section{
     width: 40%;
-    margin-left: 60px;
     margin-top: 40px;
 }
 .stats-number-hidden{
@@ -210,8 +209,9 @@
     width: 60%;
 }
 .banner-img{
-    width: 54.563rem;
+    width: 100%;
     height: 48.5rem;
+    object-fit: cover;
 }
 
 /***************** feature secton *************/
@@ -382,8 +382,10 @@
 }
 .card-difference{
     display: grid;
-    grid-template-rows: 19.5rem 19.5rem;
-    grid-template-columns: 27.5rem 27.5rem 27.5rem;
+    /* grid-template-rows: 19.5rem 19.5rem;
+    grid-template-columns: 27.5rem 27.5rem 27.5rem; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 70px;
     width: 100%;
@@ -420,21 +422,22 @@
 }
 .blogs{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 45px;
+    grid-template-rows: 1fr;
 }
 .blogs a{
     text-decoration: none;
-    margin: 0px 20px;
 }
 .blog-image{
     height: 15.938rem;
-    width: 27.25rem;
+    width: 100%;
     border-radius: 18px 18px 0px 0px;
 }
 .blog-detail{
     background-color: #FFFFFF;
-    width: 27.25rem;
+    width: 100%;
     padding: 22px 30px 20px;
     border-radius: 0px 0px 18px 18px;
 }
@@ -554,7 +557,7 @@
 .gallery-grid-landing{
    display: grid;
    grid-template-rows: 17.313rem 17.313rem;
-    grid-template-columns: 28.2rem 28.2rem 28.2rem;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 60px;
     width: 100%;
@@ -565,8 +568,8 @@
     margin-bottom: 35px;
 }
 .image img{
-    height: 17.313rem;
-    width: 28.25rem;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
 }
 .togal-btn{
@@ -664,7 +667,7 @@ textarea { resize: none; }
 }
 .footer-content{
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 .list-title{
     color: #ffffff;
@@ -709,7 +712,7 @@ textarea { resize: none; }
 .links,.contact-info,.student-notes,.social-link{
     display: inline-block;
     vertical-align: top;
-    margin-right: 70px;
+    margin-right: 55px;
 }
 .social-link{
     margin-right: 0px;
@@ -718,7 +721,9 @@ textarea { resize: none; }
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
 }
 
 /* >>>>>>>>>>>>>>>>>>>About Us>>>>>>>>>>>>>>>>>>>>>> */
@@ -1020,7 +1025,7 @@ textarea { resize: none; }
         width: 440px;
     }
     .banner-img {
-        width: 38.563rem;
+        width: 100%;
         height: 44.5rem;
     }
     /* feature section */
@@ -1043,6 +1048,72 @@ textarea { resize: none; }
         margin: 32px 24px;
         padding: 32px 25px;
     }
+    /* diff-section */
+    .diff-feature-section {
+        padding: 122px 130px;
+    }
+    .card-difference {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 60px;
+    }
+    /* blog-post */
+    .blog-posts {
+        padding: 122px 130px;
+    }
+    .blogs{
+        grid-column-gap: 20px;
+    }
+    .blog-image {
+        height: 13.938rem;
+    }
+    .blog-detail {
+        padding: 22px 20px;
+    }
+
+    /* testimonial -section */
+    .testimonial-section {
+        padding: 122px 130px;
+    }
+    /* gallery section */
+    .gallery-section{
+        padding: 70px 130px;
+    }
+    .gallery-grid-landing {
+        grid-template-rows: 15.313rem 15.313rem;
+        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+    }
+    /* querry-section */
+    .flex-querry {
+        justify-content: space-between;
+    }
+    .querry-section {
+        padding: 122px 130px;
+    }
+    .querry-image {
+        width: 50%;
+        margin-left: 0px;
+    }
+    .input-field {
+        margin-left: 0px;
+        vertical-align: top;
+        width: 45%;
+    }
+    #name-input, #email-input, #subject-input, #message-input {
+        width: 100%;
+    }
+    /* footer section */
+    .footer-container {
+        padding: 76px 170px;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+    
 
     .m-show{
         display: none;
@@ -1053,13 +1124,19 @@ textarea { resize: none; }
 /***********Desktop View(992px and 1199px)***********/
 @media (min-width:992px) and (max-width:1199px){
     .container-nav{
-        padding: 30px 90px;
+        padding: 30px 40px;
+    }
+    .nav-brand-logo {
+        height: 60px;
+        width: 115px;
     }
     .nav-item{
         margin: 0px 10px;
+        font-size: 14px;
     }
     .login-btn{
-        padding: 9px 21px;
+        padding: 8px 21px;
+        font-size: 14px;
     }
     .right-mobile{
         display: none;
@@ -1067,72 +1144,84 @@ textarea { resize: none; }
     .m-show{
         display: none;
     }
-    .banner-section {
-        padding: 20px 80px;
-    }
     .banner-left-section{
-        margin-left: 40px;
         margin-top: 10px;
+        width: 45%;
+    }
+    .banner-section {
+        padding-left: 120px;
     }
     .banner-text{
         margin-top: 20px;
     }
     .tagline{
-        font-size: 50px;
+        font-size: 57px;
     }
     .banner-text-content{
-        line-height: 28px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .contact-btn{
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .see-blog-btn{
+        font-size: 16px;
+        padding: 15px 30px;
     }
     .banner-btn {
         margin-top: 70px;
+        width: 92%;
     }
-    .contact-us-btn{
-        margin-right: 10px;
-    }
-    .students{
-        margin: 0px 40px;
+    .stats-number{
+        width: 100%;
     }
     .banner-right-section {
         width: 54%;
     }
     .banner-img {
-        width: 490px;
-        height: 584.99px;
+        width: 100%;
+        height: 100%;
     }
     /* feature section */
     .feature-section {
-        padding: 0px 110px;
+        padding: 100px 140px;
     }
     .slider-feature {
         margin-top: 50px;
     }
     .feature-item {
         padding: 25px 20px;
-        flex: 0 0 280px;
-        margin: 0px 25px;
+        flex: 0 0 370px;
+        margin: 0px 20px;
     }
     .arrow-btn1{
-        left: 45px;
+        left: -72px;
     }
     .arrow-btn2{
-        right: 25px;
+        right: -95px;
     }
     /* acheiver section */
     .acheiver-section{
-        padding: 30px 110px;
+        padding: 80px 140px;
         margin: 0px;
     }
     .arrow_btn1{
-        left: 45px;
-        top: 44%;
+        left: 58px;
+        top: 55%;
     }
     .arrow_btn2{
-        right: 20px;
-        top: 44%;
+        right: 47px;
+        top: 55%;
     }
     /* diff-section */
     .diff-feature-section {
-        padding: 40px 110px;
+        padding: 80px 140px;
+    }
+    .card-difference {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
     }
     /* blog-post */
     .blog-posts{   
