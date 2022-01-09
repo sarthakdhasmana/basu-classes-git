@@ -2285,8 +2285,8 @@ textarea { resize: none; }
     }
     .gallery-grid-landing{
         display: grid;
-        grid-template-columns: 10.125rem 10.125rem;
-        grid-template-rows: 7.7rem 7.7rem 7.7em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 15px;
         grid-column-gap: 10px;
     }
