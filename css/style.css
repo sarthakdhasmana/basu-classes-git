@@ -43,9 +43,6 @@
 .nav-link:hover{
     color: #585c64;
 }
-.home-btn:visited{
-    color: #585c64;
-}
 .nav-btn{
     display: inline-block;
     margin-right: 10px;
@@ -56,7 +53,8 @@
 }
 .login-btn{
     text-decoration: none;
-    padding: 9px 30px;
+    padding: 12px 35px;
+    font-weight: 600;
     border-radius: 5px;
     color: white;
     background-color:#7F1AFE;
