@@ -3,33 +3,51 @@
     text-align: center;
 }
 .news a{
-    display: inline-block;
     margin: 30px 0px;
     text-align: initial;
+    text-decoration: none;
+}
+.news-banner-img{
+    object-fit: cover;
+    width: 100%;
+    height: 637px;
 }
 .news-image{
-    height: 202px;
-    width: 286px;
+    height: 100%;
+    width: 30%;
     border-radius: 18px 0px 0px 18px;
+    object-fit: cover;
 }
 .news-title{
     font-size: 24px;
 }
 .news-det{
-    width: 580px;
-    display: inline-block;
+    width: 70%;
     vertical-align: top;
     border-radius: 0px;
     background-color: #FFFFFF;
     padding: 22px 30px 20px;
 }
 .news-cards {
-    padding: 40px 200px;
+    padding: 40px 0px;
 }
 .news-cards a{
     margin:20px;
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
     border-radius: 0px 18px 18px 0px;
+}
+.news-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.flex-box{
+    display: flex;
+    width: 50%;
+    box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
+    border-radius: 0px 18px 18px 0px;
+    height: 230px;
 }
 .news-prevw{
     font-weight: 500;
@@ -45,6 +63,11 @@
     align-items: center;
     padding: 40px 130px;
 }
+.news-date{
+    color: #50668F;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
 .mid-txt{
     border: 6px solid #1E283C;
     width: 38%;
@@ -59,25 +82,110 @@
 /******************************************************MEDIA QUERIES*********************************************************************/
 /***********Full View(screen and 1200px)***********/
 @media (min-width:1200px) and (max-width:1400px){
-    .news-cards {
-        padding: 40px 50px;
+    .flex-box {
+        width: 60%;
     }
+    .news-image {
+        width: 35%;
+    }    
 }
 
 /***********Desktop View(992px and 1199px)***********/
 @media (min-width:992px) and (max-width:1199px){
+    .flex-box {
+        width: 80%;
+    }
     .news-cards {
         padding: 40px 20px;
     }
+
+}
+/***********Medium Desktop View(767px and 992px)***********/
+@media (min-width:768px) and (max-width:991px){
+    .news-banner-img{
+        height: 460px;
+    }
+    .section-hr{
+        padding: 40px;
+    }
+    .flex-box {
+        width: 90%;
+    }
     .news-image {
-        width: 270px;
+        width: 40%;
+    } 
+    .news-det{
+        padding: 15px 20px 20px;
+    }
+}
+/***********Mobile medium View(566px and 767px)***********/
+@media (min-width:567px) and (max-width:767px) {
+    .news-banner-img{
+        height: 390px;
+    }
+    .section-hr{
+        padding: 40px;
+    }
+    .mid-txt {
+        width: 27%;
+    }
+    .section-title {
+        font-size: 50px;
+    }
+    .flex-box {
+        width: 80%;
+        flex-direction: column;
+        box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
+        border-radius: 0px 18px 18px 0px;
+        height: 100%;
+    }
+    .news-image {
+        height: 220px;
+        width: 100%;
+        border-radius: 18px 18px 0px 0px;
     }
     .news-det {
-        width: 520px;
-        padding: 20px;
+        width: 100%;
+        padding: 22px 25px 20px;
+        border-radius: 0px 0px 18px 18px;
     }
-    .blog-date {
-        margin-bottom: 10px;
+    
+}
+/***********Mobile View(567px)***********/
+@media (max-width:566px){
+    .news-banner-img{
+        height: 270px;
     }
-
+    .section-hr{
+        padding: 40px 16px;
+    }
+    .hid-mob {
+        display: none;
+    }
+    .mid-txt {
+        width: 60%;
+    }
+    .section-title {
+        font-size: 50px;
+    }
+    .news-cards {
+        padding: 0px 16px;
+    }
+    .flex-box {
+        width: 100%;
+        flex-direction: column;
+        box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
+        border-radius: 0px 18px 18px 0px;
+        height: 100%;
+    }
+    .news-image {
+        height: 220px;
+        width: 100%;
+        border-radius: 18px 18px 0px 0px;
+    }
+    .news-det {
+        width: 100%;
+        padding: 22px 25px 20px;
+        border-radius: 0px 0px 18px 18px;
+    }
 }
