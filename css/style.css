@@ -779,22 +779,6 @@ textarea { resize: none; }
     margin-top: 50px;
     color: #50668F;
 }
-/* <<<<<<<<Gallery pg<<<<<<<<
-.gal{
-    font-size: 50px;
-}
-.gal-bg{
-    background: none;
-}
-.gal-img{
-    margin-bottom: 50px;
-}
-.gal-mar{
-    margin: 20px 0px;
-}
-.gal-lst{
-    display: inline-block;
-} */
 
 
 /* <<<<<<<<<<<<<<<<custom Scollbar>>>>>>>>>>>> */
@@ -1337,6 +1321,14 @@ textarea { resize: none; }
     /* footer-section */
     .footer-container{
         padding: 30px 20px 20px;
+    }
+    .footer-content {
+        margin: auto;
+        width: 85%;
+    }
+    .flex-content{
+        display: flex;
+        justify-content: center;
     }
     .links, .contact-info, .student-notes, .social-link {
         margin-right: 45px;

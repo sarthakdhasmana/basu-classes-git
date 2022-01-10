@@ -24,7 +24,7 @@ a{
 .blog-cards a{
     margin:20px;
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
-    border-radius: 0px 0px 18px 18px;
+    border-radius: 18px;
 }
 .section-hr{
     display: flex;
