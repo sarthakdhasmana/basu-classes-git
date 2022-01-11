@@ -268,15 +268,21 @@
     position: absolute;
     left: -88px;
     top: 43%;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
 }
 .arrow-btn2{
     position: absolute;
     top: 44%;
     right: -79px;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
 }
 .arrow-btn-img{
-    height: 80px;
-    width: 80px;
+    height: 20px;
+    width: 12px;
 }
 #first-li{
     margin-left: 0px;
@@ -367,13 +373,19 @@
 }
 .arrow_btn1{
     position: absolute;
-    left: 120px;
-    top: 55%;
+    left: 150px;
+    top: 58%;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
 }
 .arrow_btn2{
     position: absolute;
-    top: 55%;
-    right: 102px;
+    top: 58%;
+    right: 157px;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
 }
 /*************difference-section************/
 .diff-feature-section{
@@ -540,6 +552,22 @@
     vertical-align: top;
     margin-top: 15px;
     margin-left: 15px;
+}
+.arrow_test_btn1{
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
+}
+.arrow_test_btn2{
+    position: absolute;
+    top: 50%;
+    right: 157px;
+    padding: 10px 18px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 24px rgb(1 1 1 / 18%);
 }
 .first-test{
     margin-left: 0px;
@@ -747,7 +775,7 @@ textarea { resize: none; }
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
     border-radius: 0px 0px 18px 18px;
 } */
-/* blog-page */
+/* blog-page
 .blog-content{
     padding: 60px 180px;
 }
@@ -776,7 +804,7 @@ textarea { resize: none; }
     font-weight: 600;
     margin-top: 50px;
     color: #50668F;
-}
+} */
 
 
 /* <<<<<<<<<<<<<<<<custom Scollbar>>>>>>>>>>>> */
