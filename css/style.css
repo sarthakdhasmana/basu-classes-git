@@ -1132,7 +1132,7 @@ textarea { resize: none; }
 /***********Medium Desktop View(767px and 992px)***********/
 @media (min-width:768px) and (max-width:991px){
     .container-lp {
-        height: 840px;
+        height: 760px;
     }
     .container-nav{
         padding: 30px 20px;
@@ -1142,28 +1142,30 @@ textarea { resize: none; }
         width: 110px;
     }
     .login-btn{
-        padding: 8px 20px;
+        padding: 7px 16px;
+        font-weight: 500;
+        font-size: 15px;
     }
     .right-mobile{
         display: none;
     }
     .nav-item {
         margin: 0px 5px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .hide-md{
         display: none;
     }
     .banner-section {
         padding: 10px 0px;
-        padding-left: 90px;
+        padding-left: 60px;
     }
     .banner-left-section{
         margin-top: 30px;
         width: 45%;
     }
     .tagline {
-        font-size: 45px;
+        font-size: 42px;
         font-weight: 800;
     }
     .m-show{
@@ -1190,7 +1192,6 @@ textarea { resize: none; }
         margin-top: 50px;
     }
     .banner-img {
-        width: 380px;
         height: 500.99px;
     }
     .students{
@@ -1204,12 +1205,11 @@ textarea { resize: none; }
     }
     /* feature section */
     .feature-section {
-        padding: 0px 60px;
-        margin: 20px 0px;
+        padding: 90px 60px;
     }
     .feature-item {
         padding: 25px 20px;
-        flex: 0 0 260px;
+        flex: 0 0 330px;
         margin: 0px 20px;
     }
     .arrow-btn1{
@@ -1220,7 +1220,7 @@ textarea { resize: none; }
     }
     /* acheiver section */
     .acheiver-section{
-        padding: 20px 60px;
+        padding: 90px 60px;
     }
     .slider-acheiver {
         margin-top: 50px;
@@ -1233,53 +1233,56 @@ textarea { resize: none; }
     }
     /* diff-section */
     .diff-feature-section {
-        padding: 20px 60px;
+        padding: 90px 60px;
+    }
+    .card-difference {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+        margin-top: 60px;
     }
     .card-item {
         padding: 20px 15px;
-        width: 270px;
-        margin: 15px 20px;
     }
     /* blog-post */
     .blog-posts{
-        padding: 30px 60px;
+        padding: 90px 60px;
     }
     .blogs{
-        text-align: center;
-    }
-    .middle-blog {
-        margin: 0px 15px;
-    }
-    .blog-image,.blog-detail{
-        width: 310px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;    
     }
     .bl-card{
-        margin-top: 20px;
+        display: none;
     }
     /* sub-title */
     .sub-title-section{
-        font-size: 35px;
-        line-height: 50px;
-        padding: 80px 0px;
+        padding: 90px 0px;
+    }
+    .sub-title {
+        width: 740px;
+        font-size: 45px;
     }
     /* gallery-section */
     .gallery-section{
-        padding: 20px 55px;
+        padding: 50px 60px;
     }
-    .image{
-        margin: 8px 20px;
+    .two-line {
+        width: 630px;
     }
-    .image img {
-        height: 210px;
-        width: 280px;
+    .gallery-grid-landing {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
     }
     /* testimonial section */
     .testimonial-section{
-        padding: 0px 30px;
+        padding: 50px 60px;
     }
     .testimonial-item{
-        flex: 0 0 262px;
-        margin: 0px 15px;
+        flex: 0 0 330px;
     }
     .statement{
         padding: 15px 15px 5px;
@@ -1294,7 +1297,7 @@ textarea { resize: none; }
     }
     /* querry-section */
     .querry-section {
-        padding: 20px 30px;
+        padding: 90px 60px;
     }
     .querry-image {
         display: none;
@@ -1303,43 +1306,23 @@ textarea { resize: none; }
         display: block;
         margin-left: 0px;
     }
-    .input{
-        margin: auto;
-        width: 351px;
-    }
     .msg-btn {
         margin:auto;
     }
-    #name-input, #email-input, #subject-input {
-        width: 350px;
-    }
-    #message-input{
-        width: 350px;
-    }   
     /* footer-section */
     .footer-container{
-        padding: 30px 20px 20px;
+        padding: 90px 60px;
     }
     .footer-content {
         margin: auto;
-        width: 85%;
+        width: 100%;
     }
     .flex-content{
         display: flex;
         justify-content: center;
     }
     .links, .contact-info, .student-notes, .social-link {
-        margin-right: 45px;
-    }
-    .social-link{
-        display: block;
-        margin: auto;
-       width: 154px;
-       margin-bottom: 15px;
-    }
-
-    .hide-mob{
-        display: none;
+        margin-right: 25px;
     }
     .blog-cards {
         padding: 20px 30px;
