@@ -199,7 +199,7 @@ a{
         width: 100%;
         flex-direction: column;
         box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
-        border-radius: 0px 18px 18px 0px;
+        border-radius: 18px;
         height: 100%;
     }
     .news-image {
