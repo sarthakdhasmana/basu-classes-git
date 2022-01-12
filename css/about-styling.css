@@ -287,9 +287,6 @@
     .about-left-section {
         width: 50%;
     }
-    .left-section-title {
-        font-size: 40px;
-    }
     .text-contnt {
         font-size: 16px;
     }
@@ -434,9 +431,6 @@
         display: block;
         width: 100%;
         margin: 0px;
-    }
-    .left-section-title{
-        font-size: 45px;
     }
     .margin-tp {
         margin-top: 20px;

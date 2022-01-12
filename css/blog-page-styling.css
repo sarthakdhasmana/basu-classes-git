@@ -129,6 +129,9 @@
     .blog-content {
         padding: 122px 40px; 
     }
+    .blog-title{
+        text-shadow: none;
+    }
 }
 /***********Mobile View(567px)***********/
 @media (max-width:566px){
@@ -153,5 +156,8 @@
     }
     .blog-content {
         padding: 54px 16px; 
+    }
+    .blog-title{
+        text-shadow: none;
     }
 }
