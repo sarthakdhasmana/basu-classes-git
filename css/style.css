@@ -1437,9 +1437,9 @@ textarea { resize: none; }
     .mobile-nav.is-active{
         display: block;
         text-align: center;
-        width: 100%;
-        min-height: 102vh;
-        position: fixed;
+        width: 66%;
+        height: 100%;
+        position: absolute;
         top: 0;
         right: 0px;
         padding-top: 50px;
