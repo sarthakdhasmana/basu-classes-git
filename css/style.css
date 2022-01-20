@@ -1830,9 +1830,9 @@ textarea { resize: none; }
     .mobile-nav.is-active{
         display: block;
         text-align: center;
-        width: 100%;
-        min-height: 102vh;
-        position: fixed;
+        width: 70%;
+        position: absolute;
+        height: 100%;
         top: 0;
         right: 0px;
         padding-top: 50px;
