@@ -20,6 +20,9 @@
 }
 .news-title{
     font-size: 24px;
+    color: #1E283C;
+    font-weight: 500;
+    line-height: 145%;
 }
 .news-det{
     width: 70%;
@@ -79,6 +82,9 @@
 .section-title {
     font-weight: 700;
     font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    color: #1E283C;
 }
 a{
     text-decoration: none;
@@ -116,6 +122,12 @@ a{
     .news-cards {
         padding: 40px 20px;
     }
+    .news-title {
+        font-size: 18px;
+    }
+    .news-det {
+        width: 440px;
+    }
 
 }
 /***********Medium Desktop View(767px and 992px)***********/
@@ -133,7 +145,11 @@ a{
         width: 40%;
     } 
     .news-det{
-        padding: 15px 20px 20px;
+        width: 420px;
+        padding: 15px 20px;
+    }
+    .news-title {
+        font-size: 18px;
     }
 }
 /***********Mobile medium View(566px and 767px)***********/
@@ -167,7 +183,9 @@ a{
         padding: 22px 25px 20px;
         border-radius: 0px 0px 18px 18px;
     }
-    
+    .news-title {
+        font-size: 20px;
+    }
 }
 /***********Mobile View(567px)***********/
 @media (max-width:566px){

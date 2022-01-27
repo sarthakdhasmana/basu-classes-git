@@ -21,7 +21,7 @@
 .margin-tp{
     margin-top: 30px;
 }
-.hidde{
+.hide{
     display: none;
 }
 .about-left-section{
@@ -182,7 +182,7 @@
     .about-us {
         padding: 0px;
     }
-    .hidde{
+    .hide{
         display: none;
     }
     .aside-img {
@@ -258,7 +258,7 @@
     .about-us {
         padding: 0px;
     }
-    .hidde{
+    .hide{
         display: none;
     }
     .aside-img {
@@ -351,7 +351,7 @@
         display: block;
         width: auto;
     }
-    .hidde{
+    .hide{
         display: none;
     }
     .aside-img {

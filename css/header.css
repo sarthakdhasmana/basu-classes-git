@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* *******************Navbar Css*********************** */
+
+.container-lp{
+    background-size: 100% 100%;
+    height: 920px;
+}
+.navbar-container {
+    width: 100%;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+.container-nav{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 130px;
+    width: 100%;
+    align-items: center;
+}
+.nav-brand-logo{
+    height: 60px;
+    width: 130px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    letter-spacing: 1.5px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.nav-link{
+    color:#1E283C;
+    text-decoration: none;
+}
+.active{
+    color: #585c64;
+}
+.nav-link:hover{
+    color: #585c64;
+}
+.nav-btn{
+    display: inline-block;
+    margin-right: 10px;
+}
+.log-btn{
+    display: inline-block;
+}
+.login-btn{
+    text-decoration: none;
+    padding: 12px 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    background-color:#7F1AFE;
+}
+.login-btn:hover{
+    background-color: #933bff;
+    transition: 0.6s;
+}
+.mobile{
+    display: none;
+}
+.show-mobile{
+    display: none;
+}
+
+    /*<<<<<<<<<<<<<<<<Hamburger styling <<<<<<<<<<< */
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+        margin-left: auto;
+        position: relative;
+        width: 35px;
+        cursor: pointer;
+        appearance: none;
+        z-index: 99;
+        background: transparent;
+        border: none;
+    }
+    .hamburger .bar{
+        width: 90%;
+    }
+    .hamburger::before{
+    width: 65%;
+    }
+    .hamburger::after{
+        width: 55%;
+    }
+    .hamburger .bar,.hamburger::before,.hamburger::after{
+        content: "";
+        display: block;
+        height:  3.7px;
+        background-color: #1E283C;
+        margin: 5px 0px;
+        transition: 0.4s;
+        border-radius: 5px;
+    }
+    .hamburger.is-active.hamburger::before{
+        transform: rotate(-45deg) translate(-7px,6px);
+        background-color: white;
+        width: 100%;
+    }
+    .hamburger.is-active.hamburger::after{
+        transform: rotate(45deg) translate(-6px,-6px);
+        background-color: white;
+        width: 100%;
+    }
+    .hamburger.is-active .bar{
+        opacity: 0;
+    }
+
+/* ******************* End of Navbar Css*********************** */
+/***********Full View(screen and 1200px)***********/
+@media (min-width:1200px) and (max-width:1400px){
+    .container-lp{
+        height: 870px;
+    }
+    .container-nav {
+        padding: 36px 60px;
+    }
+    .nav-item {
+        font-size: 16px;
+        margin: 0px 15px;
+    }
+    .login-btn {
+        padding: 9px 20px;
+    }
+    /* below nav-section */
+}
+
+/***********Desktop View(992px and 1199px)***********/
+@media (min-width:992px) and (max-width:1199px){
+    .container-nav{
+        padding: 30px 40px;
+    }
+    .nav-brand-logo {
+        height: 60px;
+        width: 115px;
+    }
+    .nav-item{
+        margin: 0px 10px;
+        font-size: 14px;
+    }
+    .login-btn{
+        padding: 8px 21px;
+        font-size: 14px;
+    }
+    .right-mobile{
+        display: none;
+    }
+    .m-show{
+        display: none;
+    }
+}
+
+/***********Medium Desktop View(767px and 992px)***********/
+@media (min-width:768px) and (max-width:991px){
+    .container-lp {
+        height: 760px;
+    }
+    .container-nav{
+        padding: 30px 20px;
+    }
+    .nav-brand-logo {
+        height: 40px;
+        width: 110px;
+    }
+    .login-btn{    
+        padding: 7px 16px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .right-mobile{
+        display: none;
+    }
+    .nav-item {
+        margin: 0px 5px;
+        font-size: 15px;
+    }
+    .hide-md{
+        display: none;
+    }
+}
+
+/***********Mobile medium View(566px and 767px)***********/
+@media (min-width:567px) and (max-width:767px) {
+    .container-lp{
+        height: auto;
+        width: auto;
+        background: none;
+    }
+    .container-nav{
+        align-items: center;
+    }
+    .right-mobile{
+        margin-left: auto;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    /* hamburger-menu */
+    .hamburger{
+        display: inline-block;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .right-mobile{
+        margin-left: auto;
+    }
+    .mobile{
+        display: inline-block;
+    }
+    .nav-link{
+        color: white;
+        margin: 35px 0px;
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .mobile-nav.is-active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0px;
+        background-color: #1E283C;
+        transition: 0.4s;
+    }
+    .container-nav{
+        padding: 30px 16px;
+    }
+    .nav-brand-logo{
+        height:35px;
+        width:100px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hidden-section{
+        display: flex;
+        justify-content: space-between;
+        height: 350px;
+    }
+    .show-mobile{
+        display: inline-block;
+        margin-left: auto;
+    }
+    .login-btn{
+       border-radius: 3px;
+       padding: 0px 15px;
+       font-size: 14px;
+       font-weight: 600;
+    }
+    .log-btn {
+        padding: 7px 10px;
+        background-color: #7F1AFE;
+        border-radius: 4px;
+        vertical-align: top;
+        margin: 0px;
+        margin-right: 10px;
+    }
+}
+
+/***********Mobile View(567px)***********/
+@media (max-width:566px){
+    .container-lp{
+        height: auto;
+        width: auto;
+        background: none;
+    }
+    .container-nav{
+        padding: 20px 16px;
+        align-items: center;
+    }
+    .nav-brand-logo{
+        height: 32px;
+        width: 90px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .show-mobile{
+        display: inline-block;
+        margin-left: auto;
+    }
+    .login-btn{
+       border-radius: 3px;
+       padding: 0px 15px;
+       font-size: 14px;
+       font-weight: 600;
+    }
+    .log-btn {
+        padding: 7px 10px;
+        background-color: #7F1AFE;
+        border-radius: 4px;
+        vertical-align: top;
+        margin: 0px;
+        margin-right: 10px;
+    }
+    .m-show{
+        display: inline;
+    }
+    /* hamburger-menu */
+    .hamburger{
+        display: inline-block;
+        margin-top: 5px;
+        width: 32px;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .nav-link{
+        color: white;
+        margin: 35px 0px;
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .right-mobile{
+        margin-left: auto;
+    }
+    .mobile{
+        display: inline-block;
+        margin-top: 4px;
+    }
+    .nav-link:hover{
+        color: white;
+    }
+    .mobile-nav.is-active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0px;
+        background-color: #1E283C;
+        transition: 0.4s;
+    }
+}
