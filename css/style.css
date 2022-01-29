@@ -48,12 +48,12 @@
     font-size: 18px;
     line-height: 100%;
     text-decoration: none;
-    background-color: #7F1AFE;
+    background-color: rgba(127, 26, 254, 1);
     padding: 18px 40px;
     border-radius: 4px;
 }
 .contact-btn:hover{
-    background-color: #933bff;
+    background-color: rgba(127, 26, 254, 0.9);
     transition: 0.6s;
 }
 .see-blog-btn{
@@ -67,7 +67,9 @@
     border-radius: 8px;
 }
 .see-blog-btn:hover{
-    background-color: #cacaca;
+    background-color: 
+    rgba(127, 26, 254, 1);
+    color: rgba(255,255,255);
     transition: 0.3s;
 }
 .stats-number{
@@ -355,11 +357,16 @@
     text-align: center;
     font-size: 14px;
     font-weight: 700;
-    background-color: #7F1AFE;
+    background-color: rgba(127, 26, 254, 1);
     padding: 16px 0px;
     width: 200px;
     margin: auto;
     margin-top: 50px;
+}
+.toblog-btn:hover{
+    background-color: rgba(127, 26, 254, 0.9);
+    transition: all 0.5s ease;
+  
 }
 .toblog-btn a{
     text-decoration: none;
@@ -499,6 +506,10 @@
     margin: auto;
     margin-top: 50px;
 }
+.togal-btn:hover{
+    background-color: rgba(127, 26, 254, 0.9);
+    transition: all 0.5s ease; 
+}
 .togal-btn a{
     text-decoration: none;
     color: white;
@@ -574,29 +585,16 @@ textarea { resize: none; }
     width: 190px;
     margin-top: 10px;
 }
+.msg-btn:hover{
+    background-color: rgba(127, 26, 254, 0.9);
+    transition: all 0.5s ease; 
+}
 .msg-btn a{
     text-decoration: none;
     color: white;
 }
 
-/* <<<<<<<<<<<<<<<<custom Scollbar>>>>>>>>>>>> */
-::-webkit-scrollbar{
-    width: 1.1em;
-}
-::-webkit-scrollbar-track{
-    background-color: #F2F5FA;
-    border-radius: 120px;
-    margin-block: 5px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #21294F;
-    border-radius: 120px;
-    margin: 2px 0px;
-    border: 2px solid #F2F5FA;
-}
-::-webkit-scrollbar-thumb:hover{
-    background-color: #50668F;
-}
+
 
 
 /******************************************************MEDIA QUERIES*********************************************************************/
