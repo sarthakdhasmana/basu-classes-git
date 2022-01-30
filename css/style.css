@@ -515,8 +515,8 @@
     color: white;
 }
 
-/* querry-section */
-.querry-section{
+/* query-section */
+.query-section{
     padding: 122px 240px;
 }
 .input-field{
@@ -527,16 +527,18 @@
     color: #1E283C;
     font-size: 14px;
 }
-.querry-image{
-    height: 450px;
-    width: 670px;
-    margin-left: 70px;
-}
-.flex-querry{
+
+.flex-query{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
 }
+.query-image{
+    width: 100%;
+    object-fit: cover;
+}
+
 #name-input,#email-input,#subject-input,#message-input{
     margin-bottom: 15px;
     background-color: #DFE6F1;
@@ -706,15 +708,15 @@ textarea { resize: none; }
         grid-column-gap: 20px;
         grid-row-gap: 40px;
     }
-    /* querry-section */
-    .flex-querry {
+    /* query-section */
+    .flex-query {
         justify-content: space-between;
     }
-    .querry-section {
+    .query-section {
         padding: 122px 130px;
     }
-    .querry-image {
-        width: 50%;
+    .query-image {
+        width: 100%;
         margin-left: 0px;
     }
     .input-field {
@@ -878,13 +880,12 @@ textarea { resize: none; }
         width: 740px;
     }
 
-    /* querry -section */
-    .querry-section{
+    /* query -section */
+    .query-section{
         padding: 20px 70px 30px;
     }
-    .querry-image {
-        height: 350px;
-        width: 450px;
+    .query-image {
+        
         margin-left: 0px;
     }
     .input-field{
@@ -1051,16 +1052,11 @@ textarea { resize: none; }
       display: none
     }
 
-    /* sub-title */
-    .weight {
-        width: 600px;
+    /* query-section */
+    .query-section {
+        padding: 50px 16px;
     }
-
-    /* querry-section */
-    .querry-section {
-        padding: 90px 60px;
-    }
-    .querry-image {
+    .query-image {
         display: none;
     }
     .input-field{
@@ -1282,11 +1278,11 @@ textarea { resize: none; }
         width: 480px;
     }
 
-    /* querry-section */
-    .querry-section {
+    /* query-section */
+    .query-section {
         padding: 50px 16px;
     }
-    .querry-image {
+    .query-image {
         display: none;
     }
     .input-field{
@@ -1553,11 +1549,11 @@ textarea { resize: none; }
         margin: 54px 0px;
     }
 
-    /* querry section */
-    .querry-section {
+    /* query section */
+    .query-section {
         padding: 54px 16px;
     }
-    .querry-image {
+    .query-image {
         display: none;
     }
     .input-field{
