@@ -1197,8 +1197,22 @@ textarea { resize: none; }
     }
 
     /* diff-section */
-    .diff-feature-section {
+    .diff-feature-section{
+        padding: 90px 16px;
+    }
+    .two-line {
+        width: 500px;
+    }    
+    .card-difference {
+        display: flex;
+        overflow: auto;
+        grid-column-gap: 20px;
+    }
+    .card-difference::-webkit-scrollbar {
         display: none;
+    }
+    .card-item {
+        flex: 0 0 20rem;
     }
 
     /* blog-section */
@@ -1441,8 +1455,22 @@ textarea { resize: none; }
     }
 
     /* diff-feature-section */
-    .diff-feature-section {
+    .diff-feature-section{
+        padding: 90px 16px;
+    }
+    .two-line {
         display: none;
+    }    
+    .card-difference {
+        display: flex;
+        overflow: auto;
+        grid-column-gap: 20px;
+    }
+    .card-difference::-webkit-scrollbar {
+        display: none;
+    }
+    .card-item {
+        flex: 0 0 20rem;
     }
 
     /* blog-posts */
