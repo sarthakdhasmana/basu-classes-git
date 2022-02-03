@@ -138,7 +138,15 @@
     border-radius: 16px;
     flex: 0 0 420px;
     margin: 0px 20px;
+    transition: 0.25s ease-in-out;
 }
+
+.feature-item:hover {
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
+    transform: scale(1.008, 1.008) translateY(-4px);
+}
+
+
 .card-title{
     color: #1E283C;
     font-weight: 500;
@@ -215,7 +223,16 @@
     margin: 32px 24px;
     padding: 32px 30px;
     box-shadow: -3px -3px 24px rgb(30 40 60 / 6%), 12px 12px 24px rgb(30 40 60 / 16%);
+    transition: 0.25s ease-in-out;
 }
+
+.acheiver-item:hover {
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
+    transform: scale(1.008, 1.008) translateY(-4px);
+}
+
+
+
 .wid{
     width: 500px !important;
 }
@@ -312,7 +329,14 @@
     padding: 26px 20px;
     background-color: #F2F5FA;
     border-radius: 16px;
+    transition: 0.25s ease-in-out;
 }
+
+.card-item:hover {
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
+    transform: scale(1.008, 1.008) translateY(-4px);
+}
+
 
 /**************BLOG section*****************/
 .blog-posts{
@@ -373,6 +397,19 @@
     color: white;
 }
 
+.blogs a{
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
+    border-radius: 18px;
+    transition: .25s ease-in-out;
+}
+
+.blogs a:hover{
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.04), 12px 12px 24px rgba(30, 40, 60, 0.12);
+    transform: scale(1.008, 1.008) translateY(-4px);
+    
+}
+
+
 /**************Sub-title section*****************/
 .sub-title-section{
     background-color: #1E283C;
@@ -408,9 +445,16 @@
     background-color: #FFFFFF;
     border-radius: 16px;
     flex: 0 0 420px;
-    margin: 0px 20px;
+    margin: 40px 20px;
     text-align: center;
+    transition: .25s ease-in-out;
 }
+.testimonial-item:hover {
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
+    transform: scale(1.008, 1.008) translateY(-4px);
+}
+
+
 .testimonial{
     border: 1px solid rgba(0, 0, 0, 0.17);
     border-bottom: none;
