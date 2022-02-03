@@ -106,7 +106,7 @@
 
 /***************** feature secton *************/
 .feature-section{
-    padding: 122px 240px;
+    padding: 92px 240px;
     position: relative;
 }
 .section-title{
@@ -137,7 +137,7 @@
     padding: 47px 40px;
     border-radius: 16px;
     flex: 0 0 420px;
-    margin: 0px 20px;
+    margin: 30px 20px;
     transition: 0.25s ease-in-out;
 }
 
