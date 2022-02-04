@@ -39,7 +39,17 @@
     margin:20px;
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.06), 12px 12px 24px rgba(30, 40, 60, 0.16);
     border-radius: 0px 18px 18px 0px;
+    transition: .25s ease-in-out;
 }
+.news-cards .flex-box{
+    transition: .25s ease-in-out;
+}
+
+.news-cards .flex-box:hover{
+    box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.12);
+    transform: scale(1.008, 1.008) translateY(-4px);   
+}
+
 .news-card{
     width: 100%;
     display: flex;
