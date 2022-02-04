@@ -138,6 +138,7 @@
     border-radius: 16px;
     flex: 0 0 420px;
     margin: 0px 20px;
+    transition: all 1s ease;
 }
 .card-title{
     color: #1E283C;

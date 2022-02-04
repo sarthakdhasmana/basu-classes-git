@@ -44,6 +44,21 @@
     font-weight: 600;
     display: inline-block;
     margin: 0px 20px;
+    position: relative;
+}
+.nav-item::after{
+    content: "";
+    width: 120%;
+    background-color: rgba(127, 26, 254, 1);
+    position: absolute;
+    height: 0.1rem;
+    left: -7px;
+    bottom: -5px;
+    transform: scale(0,1)
+}
+.nav-item:hover:after{
+    transform: scale(1,1);
+    transition: all 500ms ease-in
 }
 .nav-link{
     color:#1E283C;
