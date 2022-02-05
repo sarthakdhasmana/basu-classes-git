@@ -137,18 +137,14 @@
     padding: 47px 40px;
     border-radius: 16px;
     flex: 0 0 420px;
-<<<<<<< HEAD
     margin: 0px 20px;
     transition: all 1s ease;
-=======
     margin: 30px 20px;
     transition: 0.25s ease-in-out;
 }
-
 .feature-item:hover {
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
     transform: scale(1.008, 1.008) translateY(-4px);
->>>>>>> 2fc8c720bc3c782378af008333138d7065d3fb8a
 }
 
 
