@@ -1,11 +1,13 @@
 /* footer-container */
 .footer-container{
     background-color: #1E283C;
-    padding: 76px 410px;
+    padding: 76px 0;
 }
 .footer-content{
     margin: auto;
-    width: 75%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
 .list-title{
     color: #ffffff;
@@ -47,11 +49,7 @@
     display:inline-block;
     margin-right: 5px;
 }
-.links,.contact-info,.student-notes,.social-link{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 55px;
-}
+
 .social-link{
     margin-right: 0px;
 }
@@ -160,6 +158,11 @@
     /* footer-container */
     .footer-container{
         padding: 54px 16px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .links{
         display: none;
