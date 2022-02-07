@@ -38,7 +38,7 @@
     align-items: center;
     text-align: center;
     margin-left: auto;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
 }
 .nav-item{
     font-size: 18px;
@@ -47,28 +47,30 @@
     margin: 0px 20px;
     position: relative;
 }
-.nav-item::after{
-    content: "";
-    width: 120%;
-    background-color: rgba(127, 26, 254, 1);
+
+
+.nav-item:after {
+    content: '';
     position: absolute;
-    height: 0.1rem;
-    left: -7px;
-    bottom: -5px;
-    transform: scale(0,1)
-}
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #1E283C;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
 .nav-item:hover:after{
-    transform: scale(1,1);
-    transition: all 500ms ease-in
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 .nav-link{
     color:#1E283C;
     text-decoration: none;
 }
 .active{
-    color: #585c64;
-}
-.nav-link:hover{
     color: #585c64;
 }
 .nav-btn{
