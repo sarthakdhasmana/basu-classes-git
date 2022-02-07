@@ -28,9 +28,9 @@
    display: grid;
    grid-template-rows: 17.313rem 17.313rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 60px;
+    grid-gap: 30px;
     width: 100%;
+    transition: .5s all ease;
 }
 .margin-btm{
     margin-bottom: 35px;
@@ -41,6 +41,28 @@
     border-radius: 16px;
     object-fit: cover;
 }
+
+/* Pagination */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 54px 0px;
+    align-items: center;
+}
+.pagination a{
+    text-decoration: none;
+}
+.prev-pg,.current-pg{
+    padding: 5px 15px;
+    font-weight: 500;
+}
+.active-pg{
+    border-radius: 3px;
+    border: 2px solid #583DCC;
+}
+
+/* End Pagination */
 
 
 /******************************************************MEDIA QUERIES*********************************************************************/
@@ -106,6 +128,14 @@
         grid-column-gap: 1fr;
         grid-row-gap: 1fr;
     }
+
+    /* Pagination */
+
+    .pagination{
+        padding-bottom: 0;
+     }
+
+    /* End Pagination */
     
 }
 
@@ -131,6 +161,15 @@
         grid-column-gap: 10px;
         grid-row-gap: 25px;
     }
+
+    /* Pagination */
+
+    .pagination{
+        padding-bottom: 0;
+        }
+
+    /* End Pagination */
+        
 
 }
 
@@ -213,4 +252,14 @@
     .msg-btn{
         margin-right: auto;
     }
+
+
+    /* Pagination */
+
+    .pagination{
+        padding-bottom: 0;
+        }
+
+    /* End Pagination */
+        
 }

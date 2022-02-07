@@ -7,11 +7,87 @@
     text-align: initial;
     text-decoration: none;
 }
+
+.news-banner {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
 .news-banner-img{
     object-fit: cover;
     width: 100%;
-    height: 637px;
+    height: 60vh;
+    transition: height 1s;
 }
+
+/* News-search style */
+.search-container {
+    display: flex;
+    padding: 0 16px;
+}
+
+.search-form-container {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    max-width: 628px;
+    height: 64px;
+    border-radius: 8px;
+    transform: translateY(-55%);
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+}
+.search-icon {
+    color: #1E283C;
+    fill: transparent;
+    stroke: #1E283C70;
+    stroke-width: 2;
+    width: 19px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#query {
+    border: none;
+    color: #1E283C;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    outline: none;
+    padding: 0 24px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vertical-divider {
+    height: 55%;
+    width: 2px;
+    background-color: #e7e7e9;
+    margin-right: 24px;
+}
+
+.search-submit-btn {
+    all: unset;
+    color: #1E283C;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* end blog-search style */
+
+
 .news-image{
     height: 100%;
     width: 30%;
@@ -26,7 +102,7 @@
 }
 .news-det{
     width: 70%;
-    vertical-align: top;
+
     border-radius: 0px;
     background-color: #FFFFFF;
     padding: 22px 30px 20px;
@@ -42,7 +118,7 @@
     transition: .25s ease-in-out;
 }
 .news-cards .flex-box{
-    transition: .25s ease-in-out;
+    transition: .25s ease-in-out, width .5s;
 }
 
 .news-cards .flex-box:hover{
@@ -135,9 +211,7 @@ a{
     .news-title {
         font-size: 18px;
     }
-    .news-det {
-        width: 440px;
-    }
+
 
 }
 /***********Medium Desktop View(767px and 992px)***********/
@@ -154,10 +228,7 @@ a{
     .news-image {
         width: 40%;
     } 
-    .news-det{
-        width: 420px;
-        padding: 15px 20px;
-    }
+
     .news-title {
         font-size: 18px;
     }
@@ -240,4 +311,15 @@ a{
         padding: 22px 25px 20px;
         border-radius: 0px 0px 18px 18px;
     }
+
+    /* News Search  */
+
+    .vertical-divider {
+        display: none;
+    }
+    .search-submit-btn {
+        display: none;
+    }
+
+    /* End News Search  */
 }

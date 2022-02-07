@@ -26,6 +26,7 @@
     padding: 36px 130px;
     width: 100%;
     align-items: center;
+    transition: .5s all ease;
 }
 .nav-brand-logo{
     height: 60px;
