@@ -65,12 +65,12 @@
     background-color: #F2F5FA;
     padding: 18px 50px;
     border-radius: 8px;
+    transition: background-color .3s ease-in-out;
 }
 .see-blog-btn:hover{
     background-color: 
     rgba(127, 26, 254, 1);
-    color: rgba(255,255,255);
-    transition: 0.3s;
+    color: #ffffff;
 }
 .stats-number{
     display: flex;

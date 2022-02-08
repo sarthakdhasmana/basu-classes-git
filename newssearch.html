@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="icon" href="img/download-modified.png" type="image/icon type">
-    <title>Basu Classes | News</title>
+    <title>Basu Classes | News search</title>
 </head>
 
 <body>
@@ -71,24 +71,31 @@
         <div class="news-banner">
             <img src="img/News/banner-image.png" alt="Blog-Banner" class="news-banner-img">
         </div>
+
         <div class="search-container">
             <div class="search-form-container">
                 <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19">
                     <path d="M17 17L13.2223 13.2156L17 17ZM15.3158 8.15793C15.3158 10.0563 14.5617 11.877 13.2193 13.2193C11.8769 14.5617 10.0563 15.3158 8.15789 15.3158C6.2595 15.3158 4.43886 14.5617 3.0965 13.2193C1.75413 11.877 1 10.0563 1 8.15793C1 6.25953 1.75413 4.4389 3.0965 3.09653C4.43886 1.75416 6.2595 1.00003 8.15789 1.00003C10.0563 1.00003 11.8769 1.75416 13.2193 3.09653C14.5617 4.4389 15.3158 6.25953 15.3158 8.15793V8.15793Z" stroke-linecap="round"/>
                 </svg>
-                <form class="search-form" action="newssearch.html" method="get">
+                <form class="search-form" action="" method="get">
                     <input type="text" name="query" id="query" placeholder="Search...">
                     <div class="vertical-divider"></div>
                     <input class="search-submit-btn" type="submit" value="Search">
                 </form>
             </div>
         </div>
+        
         <div class="news-sec">
-            <div class="section-hr pad">
-                <hr class="mid-txt hid-mob">
-                <h3 class="section-title founder blog">News</h3>
-                <hr class="mid-txt full-mob">
+            
+            <!-- Search reasult heading section -->
+            <div class="search-result-container">
+                <div class="search-res">
+                    <h2 class="search-result-heading">Search result...</h2>
+                    <p class="query-res">Showing results for "Board Exams"</p>
+                    <p class="query-res">No result found for "Board Exams"</p>
+                </div>
             </div>
+            <!-- Search reasult heading section -->
 
             <div class="news-cards news">
                 <a href="newspage.html">
