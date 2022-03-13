@@ -104,6 +104,12 @@
     object-fit: cover;
 }
 
+.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    user-select: none;
+}
+
 /***************** feature secton *************/
 .feature-section{
     padding: 92px 240px;
@@ -127,7 +133,10 @@
     display: flex;
     list-style: none;
     font-size: 16px;
-    overflow: auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    cursor: grab;
+    scrollbar-width: none;
 }
 .feature-list::-webkit-scrollbar{
     display: none;
@@ -139,7 +148,7 @@
     flex: 0 0 420px;
     margin: 0px 20px;
     transition: all 1s ease;
-    margin: 30px 20px;
+    margin-right: 35px;
     transition: 0.25s ease-in-out;
 }
 .feature-item:hover {
@@ -193,8 +202,8 @@
 }
 
 
-/***************** Acheiver secton *************/
-.acheiver-section{
+/***************** achiever secton *************/
+.achiever-section{
     background-color:#F2F5FA;
     padding: 86px 240px;
     position: relative;
@@ -205,19 +214,25 @@
     margin-top: 15px;
     text-align: center;
 }
-.slider-acheiver{
+.slider-achiever{
     margin-top: 30px;
 }
-.acheiver-list{
+.achiever-list{
     display: flex;
     list-style: none;
     font-size: 16px;
-    overflow: auto;
+
+    
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    cursor: grab;
+
+    scrollbar-width: none;
 }
-.acheiver-list::-webkit-scrollbar{
+.achiever-list::-webkit-scrollbar{
     display: none;
 }
-.acheiver-item{
+.achiever-item{
     background-color: #FFFFFF;
     border-radius: 16px;
     flex: 0 0 346px;
@@ -227,7 +242,7 @@
     transition: 0.25s ease-in-out;
 }
 
-.acheiver-item:hover {
+.achiever-item:hover {
     box-shadow: -3px -3px 24px rgba(30, 40, 60, 0.03), 12px 12px 24px rgba(30, 40, 60, 0.08);
     transform: scale(1.008, 1.008) translateY(-4px);
 }
@@ -237,20 +252,20 @@
 .wid{
     width: 500px !important;
 }
-#first-li-acheiver{
+#first-li-achiever{
     margin-left: 0px;
 }
-.acheiver-title{
+.achiever-title{
     color: #1E283C;
     font-size: 28px;
     line-height: 114.9%;
     margin-bottom: 10px;
     font-weight: 600;
 }
-.acheiver-text{
+.achiever-text{
     margin-top: 16px;
 }
-.acheiver-define{
+.achiever-define{
     color: #1E283C;
     font-size: 16px;
     line-height: 22px;
@@ -259,17 +274,17 @@
 .mark{
     font-weight: 600;
 }
-.acheiver-img img{
+.achiever-img img{
     border-radius: 14px;
     height: 96px;
     width: 96px;
 }
-.acheiver-detail{
+.achiever-detail{
     float: right;
     vertical-align: top;
     margin-top: 22px;
 }
-.batch-acheiver{
+.batch-achiever{
     color: #1E283C;
     font-weight: 600;
     font-size: 20px;
@@ -437,7 +452,12 @@
     display: flex;
     list-style: none;
     font-size: 16px;
-    overflow: auto;
+
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    cursor: grab;
+
+    scrollbar-width: none;
 }
 .testimonial-list::-webkit-scrollbar{
     display: none;
@@ -693,11 +713,11 @@ textarea { resize: none; }
     .arrow-btn2 {
         right: -70px;
     }
-    /* acheiver-section */
-    .acheiver-section {
+    /* achiever-section */
+    .achiever-section {
         padding: 60px 130px;
     }
-    .acheiver-item {
+    .achiever-item {
         background-color: #FFFFFF;
         border-radius: 16px;
         flex: 0 0 330px;
@@ -843,8 +863,8 @@ textarea { resize: none; }
         right: -72px;
     }
 
-    /* acheiver section */
-    .acheiver-section{
+    /* achiever section */
+    .achiever-section{
         padding: 80px 140px;
         margin: 0px;
     }
@@ -1015,11 +1035,11 @@ textarea { resize: none; }
         display: none;
     }
 
-    /* acheiver section */
-    .acheiver-section{
+    /* achiever section */
+    .achiever-section{
         padding: 90px 60px;
     }
-    .slider-acheiver {
+    .slider-achiever {
         margin-top: 50px;
     }
     .arrow_btn1{
@@ -1218,16 +1238,16 @@ textarea { resize: none; }
         display: none;
     }
 
-    /* acheiver section */
-    .acheiver-section{
+    /* achiever section */
+    .achiever-section{
         padding: 90px 16px;
         margin-bottom: 0px;
     }
-    .acheiver-item {
+    .achiever-item {
         flex: 0 0 280px;
         padding: 20px;
     }
-    .slider-acheiver {
+    .slider-achiever {
         margin-top: 50px;
     }
     .arrow_btn1{
@@ -1472,8 +1492,8 @@ textarea { resize: none; }
         padding: 20px 15px;
     }
 
-    /* acheiver section */
-    .acheiver-section {
+    /* achiever section */
+    .achiever-section {
         padding: 54px 16px;
     }
     .section-title {
@@ -1483,7 +1503,7 @@ textarea { resize: none; }
         font-size: 14px;
         margin-top: 12px;
     }
-    .acheiver-item {
+    .achiever-item {
         flex: 0 0 320px;
         margin: 30px 20px;
         padding: 20px;
